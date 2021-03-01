@@ -16,6 +16,11 @@
     "react-responsive": "^8.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@storybook/addon-actions": "^6.1.20",
+    "@storybook/addon-essentials": "^6.1.20",
+    "@storybook/addon-links": "^6.1.20",
+    "@storybook/react": "^6.1.20",
     "@types/classnames": "^2.2.10",
     "@types/react": "16.9.49",
     "@types/react-dom": "16.9.8",
@@ -26,6 +31,7 @@
     "@typescript-eslint/parser": "4.1.0",
     "autoprefixer": "9.8.6",
     "babel-eslint": "10.1.0",
+    "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.11.1",
     "cssnano": "4.1.10",
     "eslint": "7.9.0",
@@ -90,7 +96,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
