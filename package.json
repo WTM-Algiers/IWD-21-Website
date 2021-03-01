@@ -11,6 +11,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-helmet": "^6.1.0",
     "react-helmet-async": "^1.0.7",
     "react-responsive": "^8.1.0"
   },
