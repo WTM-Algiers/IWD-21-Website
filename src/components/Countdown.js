@@ -4,9 +4,9 @@ import moment, { duration } from "moment"
 class Countdown extends Component {
   state = {
     days: 0,
-    hrs: 0,
-    mins: 0,
-    secs: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
   }
   setCountdown() {
     const futureDate = moment(this.props.futureDate)
@@ -16,14 +16,14 @@ class Countdown extends Component {
     const clockDuration = duration(futureDate.diff(today))
 
     const days = Math.floor(clockDuration.asDays())
-    const hrs = clockDuration.hours()
-    const mins = clockDuration.minutes()
-    const secs = clockDuration.seconds()
+    const hours = clockDuration.hours()
+    const minutes = clockDuration.minutes()
+    const seconds = clockDuration.seconds()
     this.setState({
       days,
-      hrs,
-      mins,
-      secs,
+      hours,
+      minutes,
+      seconds,
     })
   }
   componentDidMount() {
