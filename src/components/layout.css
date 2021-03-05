@@ -595,3 +595,13 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.countdown-segment{
+  text-align: center;
+  border-radius: 20%;
+  display: inline-block;
+  margin: 20px;
+  border: #000 1px solid;
+  padding: 1%;
+  width: auto;
+  height: auto;
+}
