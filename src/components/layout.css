@@ -595,11 +595,81 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.count1{
+  color: #8056ae;
+}
+.count2{
+  color: #5dd64f;
+}
+.count3{
+  color: #75bcfa;
+}
+.count4{
+  color: #fa9f87;
+}
 .countdown-segment{
   text-align: center;
   border-radius: 20%;
   display: inline-block;
-  margin: 20px;
+  margin-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: #000 1px solid;
-  padding: 10px;
+  font-size: 25px;
+  width: 70px;
+  font-family: "Poppins",ExtraBold;
+}
+.countdown-segment-caption{
+  font-size: 12px;
+  font-family: "Poppins",Regular;
+}
+.countdown-segment-nb{
+    padding-bottom: 0px;
+}
+.descreption{
+  width: 400px;
+}
+.date-desc{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #793498;
+}
+.international-desc{
+  font-family: Poppins;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.desc-desc{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4e4e4e;
+}
+.countdown-desc{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
 }
