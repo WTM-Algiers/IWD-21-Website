@@ -15,19 +15,26 @@ class Footer extends Component {
           <div className=" footer_row2">
             <div className="">
               <div className="socialmedia2">
-                {/* <a href=""></a>
-                              <a href=""></a>
-                              <a href=""></a> */}
-                <img src={fb_logo}></img>
-                <img src={insta}></img>
-                <img src={twitter}></img>
+                <a href="https://web.facebook.com/GDGAlgiers" target="_blank">
+                  <img src={fb_logo}></img>
+                </a>
+                <a
+                  href="https://www.instagram.com/gdg_algiers/"
+                  target="_blank"
+                >
+                  <img src={insta}></img>
+                </a>
+                <a href="https://twitter.com/gdg_algiers" target="_blank">
+                  {" "}
+                  <img src={twitter}></img>
+                </a>
               </div>
             </div>
             <div className="col-4"></div>
           </div>
           <div className="row footer_row2">
             <div className="col-12">
-              <p className="footer_nav"> ©️ GDG ALGIERS 2021</p>
+              <p className="footer_nav"> ©️ WTM ALGIERS 2021</p>
             </div>
           </div>
         </div>

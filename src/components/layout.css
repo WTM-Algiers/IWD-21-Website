@@ -601,7 +601,7 @@ pre tt:after {
   color: white ; 
   font-family: "Poppins",ExtraBold;
   font-weight:bold; 
-  font-size: 31px;
+  font-size: 21px;
   color: #ffffff;
   padding:20px 50px 10px 50px;
   background-color:#6a4b82;
@@ -623,10 +623,13 @@ text-align: center;
   width:inherit;
   justify-content: center;
 }
-.socialmedia2 >  img{
+.socialmedia2 > a > img{
  width:70px;
  cursor: pointer;
- margin: 0 4%;
+
+}
+.socialmedia2 > a{
+  margin: 0 4%;
 }
 .footerlogo2{
   display: block;
