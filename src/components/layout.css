@@ -599,8 +599,8 @@ pre tt:after {
 /* Footer Styling  */
 .footer2{
   color: white ; 
-  font-family: "Poppins",ExtraBold;
-  font-weight:bold; 
+  font-family: "Poppins",Bold;
+  font-weight:500; 
   font-size: 21px;
   color: #ffffff;
   padding:20px 0px 10px 0px;
