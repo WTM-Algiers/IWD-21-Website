@@ -595,3 +595,45 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+/* Footer Styling  */
+.footer2{
+  color: white ; 
+  font-family: "Poppins",Bold;
+  font-weight:500; 
+  font-size: 21px;
+  color: #ffffff;
+  padding:20px 0px 10px 0px;
+  background-color:#6a4b82;
+  width: 100%;
+  text-align: center;
+}
+.footer_nav2{
+text-align: center;
+  color:white;
+  font-size: 18px ;
+}
+.footer_row2{
+  /* margin:3px 0 3px 0; */
+
+}
+.socialmedia2{
+  display: flex;
+  margin: 0 auto;
+  width:inherit;
+  justify-content: center;
+}
+.socialmedia2 > a > img{
+ width:70px;
+ cursor: pointer;
+
+}
+.socialmedia2 > a{
+  margin: 0 4%;
+}
+.footerlogo2{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:150px;
+}
