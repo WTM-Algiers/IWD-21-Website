@@ -597,6 +597,9 @@ pre tt:after {
 }
 .homesection{
    /* background-image: url("../../tst.jpg");  */
+   padding-left: 8%;
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
 .count1{
   color: #8056ae;
@@ -610,32 +613,45 @@ pre tt:after {
 .count4{
   color: #fa9f87;
 }
+.countdown{
+  width: 50%;
+}
 .countdown-segment{
+  position: relative;
   background-color: white;
-  text-align: center;
   border-radius: 20%;
   display: inline-block;
-  margin-right: 40px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 27px;
+  margin-right: 6%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 23px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
-  width: 70px;
+  width: 13%;
+  height: 100px;
   font-family: "Poppins",ExtraBold;
 }
 .countdown-segment-caption{
-  font-size: 12px;
+  font-size: 16px;
   font-family: "Poppins",Regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgba(112, 112, 112, 0.69);
 }
 .countdown-segment-nb{
     padding-bottom: 0px;
+    font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
 }
 .descreption{
-  width: 400px;
+  width: 40%;
 }
 .date-desc{
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -645,19 +661,20 @@ pre tt:after {
 }
 .international-desc{
   font-family: Poppins;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   letter-spacing: normal;
   text-align: left;
   color: #000000;
 }
 .desc-desc{
   font-family: Poppins;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -668,7 +685,7 @@ pre tt:after {
 }
 .countdown-desc{
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
