@@ -718,6 +718,12 @@ pre tt:after {
   .descreption{
     width: 50%;
   }
+  .countdown{
+    width: 60%;
+  }
+  .countdown-segment-caption{
+    font-size: 14px;
+  }
   .desc-desc{
     font-size: 14px;
   }
@@ -731,6 +737,9 @@ pre tt:after {
   }
   .descreption{
     width: 60%;
+  }
+  .countdown{
+    width: 70%;
   }
   .desc-desc{
     font-size: 12px;
@@ -746,8 +755,17 @@ pre tt:after {
   .descreption{
     width: 100%;
   }
+  .countdown{
+    width: 80%;
+  }
   .date-desc{
     font-size: 15px;
+  }
+  .countdown-segment-caption{
+    font-size: 13px;
+  }
+  .countdown-segment-nb{
+    font-size: 24px;
   }
   .international-desc{
     font-size: 38px;
@@ -757,5 +775,36 @@ pre tt:after {
   }
   .countdown-desc{
     font-size: 14px;
+  }
+}
+@media only screen and (max-width:620px){
+  .countdown{
+    width: 100%;
+  }
+  .countdown-segment {
+    padding-top:18px ;
+    height: 80px;
+    width: 18%;
+  }
+  .booknow{
+    top: 550px;
+    right: 10%;
+  }
+}
+@media only screen and (max-width:423px){
+  .countdown-segment-caption{
+    font-size: 11px;
+  }
+  .countdown-segment-nb{
+    font-size: 20px;
+  }
+  .countdown-segment {
+    padding-top:18px ;
+    height: 80px;
+    width: 18%;
+  }
+  .booknow{
+    top: 550px;
+    right: 10%;
   }
 }
