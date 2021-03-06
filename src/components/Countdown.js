@@ -42,7 +42,9 @@ class Countdown extends Component {
       <div className="countdown">
         {Object.keys(this.state).map((key, i) => (
           <div className="countdown-segment">
-            <div className="countdown-segment-nb">{this.state[key]}</div>
+            <div className={"count" + (i + 1) + " countdown-segment-nb"}>
+              {this.state[key]}
+            </div>
             <div className="countdown-segment-caption">{key}</div>
           </div>
         ))}

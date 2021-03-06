@@ -4,13 +4,11 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import Countdown from "../components/Countdown"
-import Descreption from "../components/Descreption"
+import HomeSection from "../components/HomeSection"
 
 const IndexPage = () => (
   <Layout>
-    <Descreption></Descreption>
-    <Countdown futureDate="2021-04-18 00:00:00"></Countdown>
+    <HomeSection></HomeSection>
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
