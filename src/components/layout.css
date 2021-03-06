@@ -711,12 +711,12 @@ pre tt:after {
 }
 
 
-@media only screen and (max-width: 1292px) {
+@media only screen and (max-width: 1310px) {
   .international-desc{
     font-size: 60px;
   }
   .descreption{
-    width: 50%;
+    width: 45%;
   }
   .countdown{
     width: 60%;
@@ -731,7 +731,7 @@ pre tt:after {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1068px) {
   .international-desc{
     font-size: 43px;
   }
@@ -751,7 +751,7 @@ pre tt:after {
     font-size: 18px;
   }
 }
-@media only screen and (max-width:750px){
+@media only screen and (max-width:755px){
   .descreption{
     width: 100%;
   }
@@ -777,7 +777,7 @@ pre tt:after {
     font-size: 14px;
   }
 }
-@media only screen and (max-width:620px){
+@media only screen and (max-width:630px){
   .countdown{
     width: 100%;
   }
@@ -791,7 +791,7 @@ pre tt:after {
     right: 10%;
   }
 }
-@media only screen and (max-width:423px){
+@media only screen and (max-width:440px){
   .countdown-segment-caption{
     font-size: 11px;
   }
