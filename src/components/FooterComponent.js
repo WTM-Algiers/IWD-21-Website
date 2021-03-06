@@ -1,7 +1,7 @@
 import React, { Component } from "React"
-import fb_logo from "../../public/icons/fb_icon.png"
-import insta from "../../public/icons/insta_icon.png"
-import twitter from "../../public/icons/twitter_icon.png"
+import fb_logo from "../images/fb_icon.png"
+import insta from "../images/insta_icon.png"
+import twitter from "../images/twitter_icon.png"
 class Footer extends Component {
   render() {
     return (
