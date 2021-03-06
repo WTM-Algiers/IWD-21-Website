@@ -694,3 +694,18 @@ pre tt:after {
   text-align: left;
   color: #000000;
 }
+.booknow{
+  position: absolute;
+  background-color: #5dd64f;
+  border-radius: 50%;
+  color: white;
+  height: 100px;
+  width: 100px;
+  right:20%;
+  top:400px;
+  padding: 25px 0;
+  line-height: 25px;
+  font-size: 22px;
+  font-family: "Poppins",Medium;
+  text-align: center;
+}
