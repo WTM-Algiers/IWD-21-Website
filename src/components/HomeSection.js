@@ -5,7 +5,7 @@ import Descreption from "./Descreption"
 class HomeSection extends Component {
   render() {
     return (
-      <div>
+      <div className="homesection">
         <Descreption></Descreption>
         <Countdown futureDate="2021-04-18 00:00:00"></Countdown>
       </div>

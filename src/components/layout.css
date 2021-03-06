@@ -550,7 +550,7 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
+   padding-left: 0.96667rem; 
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
   padding-bottom: calc(0.725rem - 1px);
@@ -595,6 +595,9 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.homesection{
+   /* background-image: url("../../tst.jpg");  */
+}
 .count1{
   color: #8056ae;
 }
@@ -608,6 +611,7 @@ pre tt:after {
   color: #fa9f87;
 }
 .countdown-segment{
+  background-color: white;
   text-align: center;
   border-radius: 20%;
   display: inline-block;
