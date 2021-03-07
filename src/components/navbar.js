@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import "../css/navbar.css"
 
 function Navbar() {
@@ -25,6 +25,8 @@ function Navbar() {
 
   let navLinksClass = "navbar-links"
   navLinksClass += isActive ? " active" : ""
+  let toggleClass = "toggle-btn"
+  toggleClass += isActive ? " active" : ""
 
   return (
     <nav className="navbar">
@@ -36,7 +38,7 @@ function Navbar() {
       </a>
       <a
         href="#"
-        className="toggle-btn"
+        className={toggleClass}
         onClick={() => {
           setActive(!isActive)
         }}

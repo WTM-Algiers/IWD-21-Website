@@ -17,13 +17,18 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    background-color: #eee;
     color: var(--grey);
 }
 
 .logo {
-    margin-left: .5rem;
+    margin-left: 1rem;
+    transition: .3s ease;
 } 
+
+.logo:hover {
+    transform: scale(1.1);
+}
 
 .navbar-links {
     height: 100%;
@@ -53,12 +58,12 @@
     bottom: 0;
     content: "";
     display: block;
-    height: 5px;
+    height: 3px;
     border-radius: 2px;
     left: 50%;
     position: absolute;
     background: var(--blue);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    transition: all .3s ease;
     width: 0;
 }
 
@@ -73,33 +78,55 @@
 
 .toggle-btn {
     position: absolute;
-    top: .75rem;
+    top: 1rem;
     right: 1rem;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 30px;
-    height: 21px;
+    height: 24px;
 }
 
 .register-btn {
     border-radius: 5px;
     background-color: var(--blue);
-    color: var(--grey);
+    color: white !important;
     transition: .3s;
     padding: .5rem 1.5rem  !important;
     margin: 0 25px !important;
 }
 
 .register-btn:hover {
-    color: white !important;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
+
 .toggle-btn .bar {
     height: 3px;
     width: 100%;
     background-color: var(--blue);
     border-radius: 10px;
+    transition: all .5s ease;
+    opacity: 1;
 }
+
+.toggle-btn .bar:nth-child(1), .toggle-btn .bar:nth-child(3) {
+    transform-origin: center;
+}
+
+.toggle-btn.active .bar:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.toggle-btn.active .bar:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.toggle-btn.active .bar:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -129,7 +156,16 @@
         padding: .5rem 1rem;
     }
 
+    .navbar-links li a:not(.register-btn):after {
+        display: none;
+    }
+
     .navbar-links.active {
         display: flex;
+    }
+
+    .register-btn:hover {
+        transform: none;
+        box-shadow: none;
     }
 }
