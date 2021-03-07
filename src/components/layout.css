@@ -709,3 +709,53 @@ pre tt:after {
   font-family: "Poppins",Medium;
   text-align: center;
 }
+
+
+@media only screen and (max-width: 1292px) {
+  .international-desc{
+    font-size: 60px;
+  }
+  .descreption{
+    width: 50%;
+  }
+  .desc-desc{
+    font-size: 14px;
+  }
+  .countdown-desc{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .international-desc{
+    font-size: 43px;
+  }
+  .descreption{
+    width: 60%;
+  }
+  .desc-desc{
+    font-size: 12px;
+  }
+  .countdown-desc{
+    font-size: 16px;
+  }
+  .date-desc{
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width:750px){
+  .descreption{
+    width: 100%;
+  }
+  .date-desc{
+    font-size: 15px;
+  }
+  .international-desc{
+    font-size: 38px;
+  } 
+  .desc-desc{
+    font-size: 10px;
+  }
+  .countdown-desc{
+    font-size: 14px;
+  }
+}
