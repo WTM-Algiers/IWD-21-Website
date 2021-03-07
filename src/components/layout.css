@@ -598,6 +598,7 @@ pre tt:after {
 .homesection{
    /* background-image: url("../../tst.jpg");  */
    width: 100%;
+   overflow:hidden;
     display: flex; 
    padding-left: 8%;
    margin: 0px;
@@ -718,13 +719,37 @@ pre tt:after {
 }
 .imagehero{
   width: 40%;
+  z-index: 1;
   margin-left: 10%;
   margin-top: -20px;
 }
 .lefthero{
   width: 60%;
+  z-index: 1;
 }
-
+.lines{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 800px;
+  overflow: hidden;
+}
+.line1{
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+  top: 400px;
+}
+.line2{
+  margin-left: 200px;
+  height: 500px;
+  overflow: hidden;
+  top: 0;
+  transform: rotate(230deg);
+}
 @media only screen and (max-width:1050px){
   .lefthero{
     width: 65%;
