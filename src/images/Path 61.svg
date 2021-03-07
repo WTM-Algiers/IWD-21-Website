@@ -1,14 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1217.572" height="1226.942" viewBox="0 0 1217.572 1226.942">
-    <defs>
-        <filter id="uuo5n4m0da" width="1217.572" height="1226.942" x="0" y="0" filterUnits="userSpaceOnUse">
-            <feOffset dy="3"/>
-            <feGaussianBlur result="blur" stdDeviation="3"/>
-            <feFlood flood-color="#f4d9cd" flood-opacity=".31"/>
-            <feComposite in2="blur" operator="in"/>
-            <feComposite in="SourceGraphic"/>
-        </filter>
-    </defs>
-    <g filter="url(#uuo5n4m0da)">
-        <path fill="none" stroke="#f4d9cd" stroke-width="7px" d="M0 1016.754s15.5-50.2 87.767-94.816c59.369-36.656 151.974-72.8 223.75-105.038 17.923-8.049 96.86-39.653 124.46-89.241 39.464-70.9 27.23-172.746 34.661-237.759 10-87.49 46.471-159.571 57.681-181.87 8.215-16.342 56.057-90.749 106.089-126.046C705.653 131.72 730.8 131.727 784.616 120c43.881-10.769 91.794-6.817 139.189-8.285" transform="rotate(67 498.677 698.911)"/>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1217.6 1226.9" style="enable-background:new 0 0 1217.6 1226.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F4D9CD;stroke-width:7;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<path class="st0" d="M-0.7,364.1c0,0,52.3-5.3,121.6,43.7c56.9,40.3,126.4,111.4,184.1,164.9c14.4,13.4,74.3,73.7,130.8,79.7
+		c80.7,8.6,169.7-42.4,232.4-61c84.4-25,165-19.6,190-18c18.3,1.2,105.4,16.1,157.5,48.4c74.1,45.9,83.9,69.1,115.7,114
+		c27.1,36.2,42.1,81.8,62,124.9"/>
+</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-288.7762" y1="1510.6523" x2="-288.7762" y2="1509.1923" gradientTransform="matrix(280 0 0 -280 80910 423634)">
+	<stop  offset="0" style="stop-color:#FFEEFD"/>
+	<stop  offset="1" style="stop-color:#F5E4A4"/>
+</linearGradient>
+<circle class="st1" cx="52.7" cy="855.8" r="204.4"/>
 </svg>

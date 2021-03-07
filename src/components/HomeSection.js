@@ -11,6 +11,7 @@ class HomeSection extends Component {
       <div className="homesection">
         <div className="lines">
           <img src={line2} className="line2"></img>
+
           <img src={line1} className="line1"></img>
         </div>
 
