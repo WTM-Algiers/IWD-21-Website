@@ -597,9 +597,13 @@ pre tt:after {
 }
 .homesection{
    /* background-image: url("../../tst.jpg");  */
+   width: 100%;
+    display: flex; 
    padding-left: 8%;
-   margin-top: 100px;
-   margin-bottom: 100px;
+   margin: 0px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-image: linear-gradient(295deg, #ecf3fc 99%, #e5f9f8 46%, #fefaff 2%);
 }
 .count1{
   color: #8056ae;
@@ -614,7 +618,7 @@ pre tt:after {
   color: #fa9f87;
 }
 .countdown{
-  width: 50%;
+  width: 100%;
 }
 .countdown-segment{
   position: relative;
@@ -647,7 +651,10 @@ pre tt:after {
   letter-spacing: normal;
 }
 .descreption{
-  width: 40%;
+  width: 90%;
+} 
+.lefthero{
+  position: relative;
 }
 .date-desc{
   font-family: Poppins;
@@ -709,102 +716,208 @@ pre tt:after {
   font-family: "Poppins",Medium;
   text-align: center;
 }
+.imagehero{
+  width: 40%;
+  margin-left: 10%;
+  margin-top: -20px;
+}
+.lefthero{
+  width: 60%;
+}
 
-
-@media only screen and (max-width: 1310px) {
-  .international-desc{
-    font-size: 60px;
+@media only screen and (max-width:1050px){
+  .lefthero{
+    width: 65%;
   }
   .descreption{
-    width: 45%;
+    /* width: 100%; */
   }
   .countdown{
-    width: 60%;
+    width: 120%;
+  }
+  .date-desc{
+     font-size: 18px;
   }
   .countdown-segment-caption{
     font-size: 14px;
-  }
-  .desc-desc{
-    font-size: 14px;
-  }
-  .countdown-desc{
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width: 1068px) {
-  .international-desc{
-    font-size: 43px;
-  }
-  .descreption{
-    width: 60%;
-  }
-  .countdown{
-    width: 70%;
-  }
-  .desc-desc{
-    font-size: 12px;
-  }
-  .countdown-desc{
-    font-size: 16px;
-  }
-  .date-desc{
-    font-size: 18px;
-  }
-}
-@media only screen and (max-width:755px){
-  .descreption{
-    width: 100%;
-  }
-  .countdown{
-    width: 80%;
-  }
-  .date-desc{
-    font-size: 15px;
-  }
-  .countdown-segment-caption{
-    font-size: 13px;
   }
   .countdown-segment-nb{
-    font-size: 24px;
+    font-size: 28px;
   }
   .international-desc{
-    font-size: 38px;
+     font-size: 56px; 
   } 
   .desc-desc{
-    font-size: 10px;
+     font-size: 14px;
   }
   .countdown-desc{
-    font-size: 14px;
+    font-size: 18px;
   }
 }
-@media only screen and (max-width:630px){
+
+@media only screen and (max-width:890px){
+  .lefthero{
+    width: 75%;
+  }
+  .descreption{
+    /* width: 100%; */
+  }
   .countdown{
-    width: 100%;
+     width: 150%;
   }
-  .countdown-segment {
-    padding-top:18px ;
-    height: 80px;
-    width: 18%;
+  .date-desc{
+     font-size: 15px; 
   }
-  .booknow{
-    top: 550px;
-    right: 10%;
-  }
-}
-@media only screen and (max-width:440px){
   .countdown-segment-caption{
-    font-size: 11px;
+     font-size: 13px; 
   }
   .countdown-segment-nb{
-    font-size: 20px;
+    /* font-size: 28px;*/
   }
-  .countdown-segment {
-    padding-top:18px ;
-    height: 80px;
-    width: 18%;
+  .international-desc{
+     font-size: 48px; 
+  } 
+  .desc-desc{
+     font-size: 12px; 
+  }
+  .countdown-desc{
+     font-size: 15px;
+  }
+}
+@media only screen and (max-width:760px){
+  .homesection{
+    position: static;
+    height: 800px;
+  }
+  .imagehero{
+    position: absolute;
+    top:570px;
+    right: 200px;
+    max-width: 600px;
   }
   .booknow{
-    top: 550px;
+    position: absolute;
+    right: 50%;
+    top:55%;
+  }
+  .lefthero{
+    width: 100%;
+  }
+  .descreption{
+    /* width: 100%; */
+  }
+  .countdown{
+     width: 100%;
+  }
+  .countdown-segment{
+    margin-right: 3%;
+    width: 13%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .date-desc{
+     font-size: 15px; 
+  }
+  .countdown-segment-caption{
+     font-size: 12px; 
+  }
+  .countdown-segment-nb{
+     font-size: 24px;
+  }
+  .international-desc{
+     font-size: 42px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 13px;
+  }
+}
+@media only screen and (max-width:610px){
+  .countdown-segment{
+    margin-right: 3%;
+    width: 15%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .imagehero{
+    position: absolute;
+    right: 70px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width:400px){
+  .homesection{
+    position: static;
+  }
+  .imagehero{
+    width: 80%;
     right: 10%;
+  }
+  .lefthero{
+    width: 100%;
+  }
+  .descreption{
+    /* width: 100%; */
+  }
+  .countdown{
+     width: 100%;
+  }
+  .countdown-segment{
+    margin-right: 4%;
+    width: 20%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .date-desc{
+     font-size: 15px; 
+  }
+  .countdown-segment-caption{
+     font-size: 12px; 
+  }
+  .countdown-segment-nb{
+     font-size: 24px;
+  }
+  .international-desc{
+     font-size: 42px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 13px;
+  }
+}
+@media only screen and (max-width:360px){
+  .international-desc{
+     font-size: 35px; 
+  } 
+}
+@media only screen and (max-width:300px){
+  .countdown-segment-nb{
+     font-size: 18px;
+  }
+  .international-desc{
+     font-size: 35px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 12px;
+  }
+  .imagehero{
+    top: 650px;
+    width: 80%;
+    right: 10%;
+  }
+  .booknow{
+    right: 50%;
+    top:55%;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    font-size: 18px;
   }
 }
