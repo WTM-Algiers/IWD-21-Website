@@ -729,9 +729,6 @@ pre tt:after {
   .lefthero{
     width: 65%;
   }
-  .descreption{
-    /* width: 100%; */
-  }
   .countdown{
     width: 120%;
   }
@@ -759,9 +756,6 @@ pre tt:after {
   .lefthero{
     width: 75%;
   }
-  .descreption{
-    /* width: 100%; */
-  }
   .countdown{
      width: 150%;
   }
@@ -770,9 +764,6 @@ pre tt:after {
   }
   .countdown-segment-caption{
      font-size: 13px; 
-  }
-  .countdown-segment-nb{
-    /* font-size: 28px;*/
   }
   .international-desc{
      font-size: 48px; 
@@ -802,9 +793,6 @@ pre tt:after {
   }
   .lefthero{
     width: 100%;
-  }
-  .descreption{
-    /* width: 100%; */
   }
   .countdown{
      width: 100%;
@@ -857,9 +845,6 @@ pre tt:after {
   }
   .lefthero{
     width: 100%;
-  }
-  .descreption{
-    /* width: 100%; */
   }
   .countdown{
      width: 100%;
