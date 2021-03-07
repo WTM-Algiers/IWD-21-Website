@@ -732,8 +732,8 @@ pre tt:after {
   margin: 0px;
   position: absolute;
   width: 100%;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 0px;
   height: 800px;
   overflow: hidden;
 }
@@ -747,7 +747,7 @@ pre tt:after {
   margin-left: 200px;
   height: 500px;
   overflow: hidden;
-  top: 0;
+  top: 0px;
   transform: rotate(230deg);
 }
 @media only screen and (max-width:1050px){
@@ -929,5 +929,20 @@ pre tt:after {
     width: 70px;
     padding-top: 10px;
     font-size: 18px;
+  }
+}
+@media only screen and (max-width:922px){
+  .line2{
+    display: none;
+  }
+}
+@media only screen and (max-width:1050px){
+  .line1{
+    top: 365px;
+  }
+}
+@media only screen and (max-width:890px){
+  .line1{
+    top: 328px;
   }
 }
