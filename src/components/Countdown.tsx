@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import moment, { duration } from "moment"
-import { Number } from "Number/Number"
 
 interface IProps {
   futureDate: string
@@ -31,17 +30,18 @@ class Countdown extends React.Component<IProps, IState> {
     const today = moment()
 
     const clockDuration = duration(futureDate.diff(today))
-
-    const days = Math.floor(clockDuration.asDays())
-    const hours = clockDuration.hours()
-    const minutes = clockDuration.minutes()
-    const seconds = clockDuration.seconds()
-    this.setState({
-      days,
-      hours,
-      minutes,
-      seconds,
-    })
+    if (clockDuration.asDays() > 0) {
+      const days = Math.floor(clockDuration.asDays())
+      const hours = clockDuration.hours()
+      const minutes = clockDuration.minutes()
+      const seconds = clockDuration.seconds()
+      this.setState({
+        days,
+        hours,
+        minutes,
+        seconds,
+      })
+    }
   }
   componentDidMount() {
     this.setCountdown()

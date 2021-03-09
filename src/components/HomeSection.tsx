@@ -3,8 +3,8 @@ import Countdown from "./Countdown.tsx"
 import Descreption from "./Descreption.tsx"
 import Booknow from "./Booknow.tsx"
 import hero from "../assets/svgs/Hero.svg"
-import line1 from "../assets/svgs/path 61.svg"
-import line2 from "../assets/svgs/path 87.svg"
+import line1 from "../assets/svgs/path61.svg"
+import line2 from "../assets/svgs/path87.svg"
 class HomeSection extends Component {
   render() {
     return (
@@ -17,7 +17,7 @@ class HomeSection extends Component {
 
         <div className="lefthero">
           <Descreption></Descreption>
-          <Countdown futureDate="2021-04-18 00:00:00"></Countdown>
+          <Countdown futureDate="2021-04-09 00:00:00"></Countdown>
         </div>
 
         <div className="imagehero">
