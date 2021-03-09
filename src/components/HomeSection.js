@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import Countdown from "./Countdown"
 import Descreption from "./Descreption"
 import Booknow from "./Booknow"
-import hero from "../images/women-hero.png"
-import line1 from "../images/path 61.svg"
-import line2 from "../images/path 87.svg"
+import hero from "../assets/svgs/Hero.svg"
+import line1 from "../assets/svgs/path 61.svg"
+import line2 from "../assets/svgs/path 87.svg"
 class HomeSection extends Component {
   render() {
     return (

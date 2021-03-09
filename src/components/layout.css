@@ -718,7 +718,7 @@ pre tt:after {
   text-align: center;
 }
 .imagehero{
-  width: 40%;
+  width: 50%;
   z-index: 1;
   margin-left: 10%;
   margin-top: -20px;
@@ -750,10 +750,13 @@ pre tt:after {
   top: 0px;
   transform: rotate(230deg);
 }
-@media only screen and (max-width:1050px){
+@media only screen and (max-width:1131px){
   .lefthero{
     width: 65%;
   }
+  .imagehero{
+  width: 50%;
+}
   .countdown{
     width: 120%;
   }
@@ -777,9 +780,20 @@ pre tt:after {
   }
 }
 
-@media only screen and (max-width:890px){
+@media only screen and (max-width:939px){
   .lefthero{
-    width: 75%;
+    width: 70%;
+  }
+  .imagehero{
+  width: 50%;
+  }
+  .booknow{
+    top:320px;
+    right: 150px;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    font-size: 18px;
   }
   .countdown{
      width: 150%;
