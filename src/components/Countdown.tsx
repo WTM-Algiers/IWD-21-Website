@@ -1,13 +1,30 @@
 import React, { Component } from "react"
 import moment, { duration } from "moment"
+import { Number } from "Number/Number"
 
-class Countdown extends Component {
-  state = {
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0,
+interface IProps {
+  futureDate: string
+}
+
+interface IState {
+  days: number
+  hours: number
+  minutes: number
+  seconds: number
+}
+
+class Countdown extends React.Component<IProps, IState> {
+  constructor(props: IProps) {
+    super(props)
+
+    this.state = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+    }
   }
+
   setCountdown() {
     const futureDate = moment(this.props.futureDate)
 
@@ -28,13 +45,17 @@ class Countdown extends Component {
   }
   componentDidMount() {
     this.setCountdown()
-    this.interval = setInterval(() => {
+    setInterval(() => {
       this.setCountdown()
     }, 1000)
   }
 
   componentWillUnmount() {
-    clearInterval(this.interval)
+    clearInterval(
+      setInterval(() => {
+        this.setCountdown()
+      }, 1000)
+    )
   }
 
   render() {
