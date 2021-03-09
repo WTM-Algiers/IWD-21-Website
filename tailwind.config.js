@@ -1,24 +1,15 @@
 module.exports = {
   theme: {
-    colors: {
-      black: {
-        lighter: "#212121",
-        default: "#2D2D2D",
-        darker: "#000000",
-      },
-      white: {
-        lighter: "#FFFFFF",
-        default: "#F8F9FA",
-      },
-      green: {
-        default: "#0CAD4D",
-        darker: "#0F9D58",
-      },
-      red: "#EA4335",
-      yellow: {
-        lighter: "#FBBC04",
-        default: "#F9AB00",
-      },
+    borderRadius: {
+      none: "0",
+      sm: "0.125rem",
+      md: "0.375rem",
+      lg: "0.5rem",
+      xl: "0.75rem",
+      "2xl": "1rem",
+      "3xl": "1.5rem",
+      full: "9999px",
+      large: "12px",
     },
     fontFamily: {
       sans: ["Cairo", '"Open Sans"', "Roboto", "sans-serif"],
