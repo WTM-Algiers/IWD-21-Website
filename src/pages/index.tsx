@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
-import HomeSection from "../components/HomeSection.tsx"
+import HomeSection from "../components/HomeSection"
 import Footer from "../components/FooterComponent"
 
 const IndexPage = () => (
