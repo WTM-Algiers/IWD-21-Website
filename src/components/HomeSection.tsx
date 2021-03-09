@@ -2,9 +2,9 @@ import React, { Component } from "react"
 import Countdown from "./Countdown"
 import Descreption from "./Descreption"
 import Booknow from "./Booknow"
-import hero from "../assets/svgs/Hero.svg"
-import line1 from "../assets/svgs/path61.svg"
-import line2 from "../assets/svgs/path87.svg"
+const hero = require("../assets/svgs/Hero.svg") as string
+const line1 = require("../assets/svgs/path61.svg") as string
+const line2 = require("../assets/svgs/path87.svg") as string
 class HomeSection extends Component {
   render() {
     return (
