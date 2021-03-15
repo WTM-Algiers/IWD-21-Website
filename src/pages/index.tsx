@@ -4,11 +4,13 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import HomeSection from "../components/HomeSection"
 import Footer from "../components/FooterComponent"
 
 const IndexPage = () => (
   <>
     <Layout>
+      <HomeSection></HomeSection>
       <SEO title="Home" />
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>
