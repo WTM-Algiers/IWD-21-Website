@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-class Descreption extends Component {
+class Description extends Component {
   render() {
     return (
       <div className="descreption">
@@ -19,4 +19,4 @@ class Descreption extends Component {
   }
 }
 
-export default Descreption
+export default Description
