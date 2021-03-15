@@ -6,11 +6,14 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import HomeSection from "../components/HomeSection"
 import Footer from "../components/FooterComponent"
-
+import Navbar from "../components/navbar"
 const IndexPage = () => (
   <>
     <Layout>
-      <HomeSection></HomeSection>
+      <div className="backgroundfix">
+        <Navbar />
+        <HomeSection></HomeSection>
+      </div>
       <SEO title="Home" />
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site.</p>

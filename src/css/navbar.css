@@ -17,7 +17,7 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #eee;
+    z-index: 1;
     color: var(--grey);
 }
 
