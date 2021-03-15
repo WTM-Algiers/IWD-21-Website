@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --grey: #4a4949;
+    --blue: #5190cc;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    color: var(--grey);
+}
+
+.logo {
+    margin-left: 1rem;
+    transition: .3s ease;
+} 
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: var(--grey);
+    padding: .5rem;
+    transition: .3s;
+    position: relative;
+}
+
+.navbar-links li a:not(.register-btn):after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    border-radius: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--blue);
+    transition: all .3s ease;
+    width: 0;
+}
+
+.navbar-links li a:not(.register-btn):hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-links li a:hover {
+    color: var(--blue);
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+}
+
+.register-btn {
+    border-radius: 5px;
+    background-color: var(--blue);
+    color: white !important;
+    transition: .3s;
+    padding: .5rem 1.5rem  !important;
+    margin: 0 25px !important;
+}
+
+.register-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.toggle-btn .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--blue);
+    border-radius: 10px;
+    transition: all .5s ease;
+    opacity: 1;
+}
+
+.toggle-btn .bar:nth-child(1), .toggle-btn .bar:nth-child(3) {
+    transform-origin: center;
+}
+
+.toggle-btn.active .bar:nth-child(1) {
+    transform: rotate(45deg);
+}
+
+.toggle-btn.active .bar:nth-child(2) {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.toggle-btn.active .bar:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-btn {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links li a:not(.register-btn):after {
+        display: none;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .register-btn:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
