@@ -1,3 +1,4 @@
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -10,7 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Poppins", georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -81,8 +82,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -127,7 +128,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace;
+  font-family: "Poppins", monospace;
   font-size: 1em;
 }
 figure {
@@ -260,8 +261,8 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -277,8 +278,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -294,8 +295,8 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -311,8 +312,8 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -328,8 +329,8 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Poppins", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -550,7 +551,7 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
+   padding-left: 0.96667rem; 
   padding-right: 0.96667rem;
   padding-top: 0.725rem;
   padding-bottom: calc(0.725rem - 1px);
@@ -594,4 +595,407 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.homesection{
+   /* background-image: url("../../tst.jpg");  */
+   width: 100%;
+   overflow:hidden;
+    display: flex; 
+   padding-left: 8%;
+   margin: 0px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-image: linear-gradient(295deg, #ecf3fc 99%, #e5f9f8 46%, #fefaff 2%);
+}
+.count1{
+  color: #8056ae;
+}
+.count2{
+  color: #5dd64f;
+}
+.count3{
+  color: #75bcfa;
+}
+.count4{
+  color: #fa9f87;
+}
+.countdown{
+  width: 100%;
+}
+.countdown-segment{
+  position: relative;
+  background-color: white;
+  border-radius: 20%;
+  display: inline-block;
+  margin-right: 6%;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 23px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
+  width: 13%;
+  height: 100px;
+  font-family: "Poppins",ExtraBold;
+}
+.countdown-segment-caption{
+  font-size: 16px;
+  font-family: "Poppins",Regular;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: rgba(112, 112, 112, 0.69);
+}
+.countdown-segment-nb{
+    padding-bottom: 0px;
+    font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+}
+.descreption{
+  width: 90%;
+} 
+.lefthero{
+  position: relative;
+}
+.date-desc{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #793498;
+}
+.international-desc{
+  font-family: Poppins;
+  font-size: 65px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.desc-desc{
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4e4e4e;
+}
+.countdown-desc{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 4.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.booknow{
+  position: absolute;
+  background-color: #5dd64f;
+  border-radius: 50%;
+  color: white;
+  height: 100px;
+  width: 100px;
+  right:20%;
+  top:400px;
+  padding: 25px 0;
+  line-height: 25px;
+  font-size: 22px;
+  font-family: "Poppins",Medium;
+  text-align: center;
+}
+.imagehero{
+  width: 50%;
+  z-index: 1;
+  margin-left: 10%;
+  margin-top: -20px;
+}
+.lefthero{
+  width: 60%;
+  z-index: 1;
+}
+.lines{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  height: 900px;
+  overflow: hidden;
+}
+.line1{
+  position: absolute;
+  height: 500px;
+  overflow: hidden;
+  top: 400px;
+}
+.line2{
+  margin-left: 200px;
+  height: 500px;
+  overflow: hidden;
+  top: 0px;
+  transform: rotate(230deg);
+}
+@media only screen and (max-width:1131px){
+  .lefthero{
+    width: 65%;
+  }
+  .imagehero{
+  width: 50%;
+}
+  .countdown{
+    width: 120%;
+  }
+  .date-desc{
+     font-size: 18px;
+  }
+  .countdown-segment-caption{
+    font-size: 14px;
+  }
+  .countdown-segment-nb{
+    font-size: 28px;
+  }
+  .international-desc{
+     font-size: 56px; 
+  } 
+  .desc-desc{
+     font-size: 14px;
+  }
+  .countdown-desc{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width:939px){
+  .lefthero{
+    width: 70%;
+  }
+  .imagehero{
+  width: 50%;
+  }
+  .booknow{
+    top:320px;
+    right: 150px;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .countdown{
+     width: 150%;
+  }
+  .date-desc{
+     font-size: 15px; 
+  }
+  .countdown-segment-caption{
+     font-size: 13px; 
+  }
+  .international-desc{
+     font-size: 48px; 
+  } 
+  .desc-desc{
+     font-size: 12px; 
+  }
+  .countdown-desc{
+     font-size: 15px;
+  }
+}
+@media only screen and (max-width:760px){
+  .homesection{
+    position: static;
+    height: 800px;
+  }
+  .imagehero{
+    position: absolute;
+    top:570px;
+    right: 200px;
+    max-width: 600px;
+  }
+  .booknow{
+    position: absolute;
+    right: 50%;
+    top:55%;
+  }
+  .lefthero{
+    width: 100%;
+  }
+  .countdown{
+     width: 100%;
+  }
+  .countdown-segment{
+    margin-right: 3%;
+    width: 13%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .date-desc{
+     font-size: 15px; 
+  }
+  .countdown-segment-caption{
+     font-size: 12px; 
+  }
+  .countdown-segment-nb{
+     font-size: 24px;
+  }
+  .international-desc{
+     font-size: 42px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 13px;
+  }
+}
+@media only screen and (max-width:610px){
+  .countdown-segment{
+    margin-right: 3%;
+    width: 15%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .imagehero{
+    position: absolute;
+    right: 70px;
+    width: 300px;
+  }
+}
+@media only screen and (max-width:400px){
+  .homesection{
+    position: static;
+  }
+  .imagehero{
+    width: 80%;
+    right: 10%;
+  }
+  .lefthero{
+    width: 100%;
+  }
+  .countdown{
+     width: 100%;
+  }
+  .countdown-segment{
+    margin-right: 4%;
+    width: 20%;
+    height: 80px;
+    padding-top: 15px;
+  }
+  .date-desc{
+     font-size: 15px; 
+  }
+  .countdown-segment-caption{
+     font-size: 12px; 
+  }
+  .countdown-segment-nb{
+     font-size: 24px;
+  }
+  .international-desc{
+     font-size: 42px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 13px;
+  }
+}
+@media only screen and (max-width:360px){
+  .international-desc{
+     font-size: 35px; 
+  } 
+}
+@media only screen and (max-width:300px){
+  .countdown-segment-nb{
+     font-size: 18px;
+  }
+  .international-desc{
+     font-size: 35px; 
+  } 
+  .desc-desc{
+     font-size: 11px; 
+  }
+  .countdown-desc{
+     font-size: 12px;
+  }
+  .imagehero{
+    top: 650px;
+    width: 80%;
+    right: 10%;
+  }
+  .booknow{
+    right: 50%;
+    top:55%;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width:922px){
+  .line2{
+    display: none;
+  }
+}
+@media only screen and (max-width:1050px){
+  .line1{
+    top: 365px;
+  }
+}
+@media only screen and (max-width:890px){
+  .line1{
+    top: 328px;
+  }
+}
+/* Footer Styling  */
+.footer2{
+  color: white ; 
+  font-family: "Poppins",Bold;
+  font-weight:500; 
+  font-size: 21px;
+  color: #ffffff;
+  padding:20px 0px 10px 0px;
+  background-color:#6a4b82;
+  width: 100%;
+  text-align: center;
+}
+.footer_nav2{
+text-align: center;
+  color:white;
+  font-size: 18px ;
+}
+.socialmedia2{
+  display: flex;
+  margin: 0 auto;
+  width:inherit;
+  justify-content: center;
+}
+.socialmedia2 > a > img{
+ width:70px;
+ cursor: pointer;
+
+}
+.socialmedia2 > a{
+  margin: 0 4%;
+}
+.footerlogo2{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width:150px;
+
 }

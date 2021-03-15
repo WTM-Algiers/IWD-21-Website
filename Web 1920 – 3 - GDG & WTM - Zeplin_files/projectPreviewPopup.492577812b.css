@@ -1,0 +1,103 @@
+#projectPreviewOverlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--teflon-60pc);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projectPreviewOverlay.hidden {
+    display: none;
+}
+
+.projectPreview {
+    --preview-project-header-padding: 36px 0px 12px;
+    --preview-project-header-margin: 0 12px;
+    --preview-project-users-margin: 12px 12px 0;
+}
+
+#projectPreviewPopup {
+    width: 66vw;
+    max-height: calc(100vh - 144px);
+    min-height: 480px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 var(--teflon-50pc);
+    display: flex;
+    flex-direction: column;
+}
+
+#projectPreviewViewContainer {
+    overflow: auto;
+    flex: 1;
+}
+
+#projectPreviewFooter {
+    width: 100%;
+    height: 52px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#projectPreviewFooter button {
+    width: 72px;
+    height: 36px;
+    padding: 9px 8px 8px;
+    background-color: #fff;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cornflower-blue);
+    transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#projectPreviewFooter button:active {
+    background-color: var(--cornflower-blue-15pc);
+}
+
+#projectPreviewFooter button:first-child {
+    color: var(--gandalf);
+    margin-right: 12px;
+    width: 77px;
+}
+
+#projectPreviewFooter button:first-child:active {
+    background-color: var(--gandalf-30pc);
+}
+
+#projectPreviewFooter .joinProjectFooterButton img {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+#projectPreviewFooter .joinProjectFooterButton img {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+#projectPreviewFooter .joinProjectFooterButton.loading {
+    padding: 0;
+}
+
+#projectPreviewFooter .joinProjectFooterButton.loading img {
+    display: block;
+}
+
+#projectPreviewFooter .joinProjectFooterButton.loading span {
+    display: none;
+}
+
+#projectPreviewFooter button:hover {
+    box-shadow: 0 2px 6px 0 var(--teflon-20pc);
+}
