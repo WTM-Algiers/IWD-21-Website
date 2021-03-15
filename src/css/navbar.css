@@ -17,13 +17,14 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #eee;
+    z-index: 1;
     color: var(--grey);
 }
 
 .logo {
-    margin-left: 1rem;
+    margin-left: 8%;
     transition: .3s ease;
+    width: 500px;
 } 
 
 .logo:hover {

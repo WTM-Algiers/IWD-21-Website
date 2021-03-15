@@ -596,8 +596,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.backgroundfix{
+  background-image: linear-gradient(295deg, #ecf3fc 99%, #e5f9f8 46%, #fefaff 2%);
+}
 .homesection{
-   /* background-image: url("../../tst.jpg");  */
    width: 100%;
    overflow:hidden;
     display: flex; 
@@ -605,7 +607,7 @@ pre tt:after {
    margin: 0px;
    padding-top: 100px;
    padding-bottom: 100px;
-   background-image: linear-gradient(295deg, #ecf3fc 99%, #e5f9f8 46%, #fefaff 2%);
+   
 }
 .count1{
   color: #8056ae;
