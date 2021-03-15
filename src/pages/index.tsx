@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Layout>
       <div className="backgroundfix">
         <Navbar />
-        <HomeSection></HomeSection>
+        <HomeSection futureDate="2021-04-09 00:00:00"></HomeSection>
       </div>
       <SEO title="Home" />
       <h1>Hi people</h1>

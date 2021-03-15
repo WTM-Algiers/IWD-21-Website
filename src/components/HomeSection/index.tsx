@@ -2,10 +2,18 @@ import React, { Component } from "react"
 import Countdown from "./Countdown"
 import Descreption from "./Descreption"
 import Booknow from "./Booknow"
-const hero = require("../assets/svgs/Hero.svg") as string
-const line1 = require("../assets/svgs/path61.svg") as string
-const line2 = require("../assets/svgs/path87.svg") as string
-class HomeSection extends Component {
+const hero = require("../../assets/svgs/Hero.svg") as string
+const line1 = require("../../assets/svgs/path61.svg") as string
+const line2 = require("../../assets/svgs/path87.svg") as string
+
+interface IProps {
+  futureDate: string
+}
+
+class HomeSection extends Component<IProps> {
+  constructor(props: IProps) {
+    super(props)
+  }
   render() {
     return (
       <div className="homesection">
@@ -17,7 +25,7 @@ class HomeSection extends Component {
 
         <div className="lefthero">
           <Descreption></Descreption>
-          <Countdown futureDate="2021-04-09 00:00:00"></Countdown>
+          <Countdown futureDate={this.props.futureDate}></Countdown>
         </div>
 
         <div className="imagehero">
