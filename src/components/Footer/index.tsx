@@ -1,7 +1,5 @@
-import React, { Component } from "React"
-import fb_logo from "../images/fb_icon.png"
-import insta from "../images/insta_icon.png"
-import twitter from "../images/twitter_icon.png"
+import React, { Component } from "react"
+
 class Footer extends Component {
   render() {
     return (
@@ -16,17 +14,17 @@ class Footer extends Component {
             <div className="">
               <div className="socialmedia2">
                 <a href="https://web.facebook.com/GDGAlgiers" target="_blank">
-                  <img src={fb_logo}></img>
+                  <img src={"../../assets/pngs/fb_icon.png"}></img>
                 </a>
                 <a
                   href="https://www.instagram.com/gdg_algiers/"
                   target="_blank"
                 >
-                  <img src={insta}></img>
+                  <img src={"../../assets/pngs/insta_icon.png"}></img>
                 </a>
                 <a href="https://twitter.com/gdg_algiers" target="_blank">
                   {" "}
-                  <img src={twitter}></img>
+                  <img src={"../../assets/pngs/twitter_icon.png"}></img>
                 </a>
               </div>
             </div>

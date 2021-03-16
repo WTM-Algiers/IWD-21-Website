@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 :root {
     --grey: #4a4949;
-    --blue: #5190cc;
+    --blue: #3f9ee2;
 }
 
 * {
@@ -13,6 +11,7 @@
 }
 
 .navbar {
+    padding-top: 1%;
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -24,7 +23,7 @@
 .logo {
     margin-left: 8%;
     transition: .3s ease;
-    width: 500px;
+
 } 
 
 .logo:hover {
@@ -32,6 +31,7 @@
 }
 
 .navbar-links {
+    padding-right: 12%;
     height: 100%;
 }
 
@@ -48,16 +48,21 @@
 .navbar-links li a {
     display: block;
     text-decoration: none;
+    
+    font-size: 24px;
     color: var(--grey);
     padding: .5rem;
     transition: .3s;
     position: relative;
 }
-
+.navbar-links li a:not(.register-btn){
+    opacity: 0.5;
+}
 .navbar-links li a:not(.register-btn):after {
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
+
     display: block;
     height: 3px;
     border-radius: 2px;
@@ -71,16 +76,19 @@
 .navbar-links li a:not(.register-btn):hover:after {
     width: 100%;
     left: 0;
+    opacity: 0.98;
 }
 
 .navbar-links li a:hover {
     color: var(--blue);
+    opacity: 0.98;
 }
 
 .toggle-btn {
     position: absolute;
     top: 1rem;
     right: 1rem;
+    opacity: 0.98;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -92,8 +100,9 @@
     border-radius: 5px;
     background-color: var(--blue);
     color: white !important;
+    opacity: 0.98;
     transition: .3s;
-    padding: .5rem 1.5rem  !important;
+    padding: .7rem 1.6rem  !important;
     margin: 0 25px !important;
 }
 

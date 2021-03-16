@@ -109,7 +109,7 @@ function ScheduleSection({}: Props): ReactElement {
   const [currentDay, setCurrentDay] = useState(days[0])
   return (
     <div className="flex flex-col justify-center items-center w-full relative">
-      <svg
+      {/*<svg
         xmlns="http://www.w3.org/2000/svg"
         width="190"
         height="190"
@@ -135,7 +135,7 @@ function ScheduleSection({}: Props): ReactElement {
         </defs>
         <circle cx="95" cy="95" r="95" fill="url(#r4eqep0e3a)" />
       </svg>
-
+      */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="190"
