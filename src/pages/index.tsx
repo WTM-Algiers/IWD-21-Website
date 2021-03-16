@@ -6,6 +6,7 @@ import Navbar from "../components/NavBar"
 import GrowTogether from "../components/GrowTogetherSection"
 import SpeakersSection from "../components/Speaker/SpeakersSection"
 import ScheduleSection from "../components/Schedule"
+import Footer from "../components/Footer"
 import { SeoProps } from "../layout/Seo"
 
 interface Props {}
@@ -70,6 +71,7 @@ function Index(props: PageProps<Props>): ReactElement {
         <GrowTogether></GrowTogether>
         <SpeakersSection></SpeakersSection>
         <ScheduleSection></ScheduleSection>
+        <Footer></Footer>
       </Layout>
     </>
   )
