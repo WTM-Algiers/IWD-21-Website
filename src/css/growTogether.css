@@ -2,11 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     /*width:80%;*/
-    width: 900px;
+    max-width: 1300px;
     column-gap:10%;
 }
 .card{
-  height: 350px;
+  height: 400px;
 }
 .card h1{
   font-size: 25px;

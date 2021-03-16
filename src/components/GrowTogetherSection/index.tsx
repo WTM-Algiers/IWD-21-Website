@@ -111,7 +111,7 @@ const GrowTogetherSection: React.FC = () => {
             className="absolute"
             src={require("../../assets/svgs/CurvedLine.svg")}
             alt="path"
-            style={{ top: "-3vw", left: "-9%", zIndex: 1 }}
+            style={{ top: "-3vw", left: "-7%", zIndex: 1 }}
           />
           <img
             className="absolute"
@@ -135,7 +135,7 @@ const GrowTogetherSection: React.FC = () => {
             style={{
               width: "15vw",
               height: "15vw",
-              bottom: "-3vw",
+              bottom: "-2vw",
               right: "5vw",
               zIndex: 2,
             }}
@@ -148,6 +148,7 @@ const GrowTogetherSection: React.FC = () => {
                   left: "0",
                   fontFamily: "Poppins",
                   fontSize: "2.7vw",
+                  fontWeight: 500,
                   lineHeight: 1.79,
                   textAlign: "center",
                   margin: "0",
@@ -165,6 +166,7 @@ const GrowTogetherSection: React.FC = () => {
                   fontFamily: "Poppins",
                   fontSize: "1.7vw",
                   lineHeight: 2.27,
+                  fontWeight: 500,
                   textAlign: "center",
                   margin: "0",
                   color: "#f6f6f6",
@@ -179,6 +181,7 @@ const GrowTogetherSection: React.FC = () => {
                 fontFamily: "Poppins",
                 fontWeight: 600,
                 lineHeight: 0.76,
+                fontWeight: 500,
                 color: "#ffffff",
                 fontSize: "5vw",
               }}

@@ -108,8 +108,9 @@ function ScheduleSection({}: Props): ReactElement {
   const days = Object.keys(scheduleData)
   const [currentDay, setCurrentDay] = useState(days[0])
   return (
-    <div className="flex flex-col justify-center items-center w-full relative">
-      {/*<svg
+    <section id="Schedule">
+      <div className="flex flex-col justify-center items-center w-full relative">
+        {/*<svg
         xmlns="http://www.w3.org/2000/svg"
         width="190"
         height="190"
@@ -136,31 +137,32 @@ function ScheduleSection({}: Props): ReactElement {
         <circle cx="95" cy="95" r="95" fill="url(#r4eqep0e3a)" />
       </svg>
       */}
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="190"
-        height="190"
-        viewBox="0 0 190 190"
-        className="absolute"
-        style={{
-          zIndex: -1,
-          left: "-100px",
-        }}
-      >
-        <g fill="none" stroke="#fff7ec" stroke-width="39px" opacity="0.8">
-          <circle cx="95" cy="95" r="95" stroke="none" />
-          <circle cx="95" cy="95" r="75.5" />
-        </g>
-      </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="190"
+          height="190"
+          viewBox="0 0 190 190"
+          className="absolute"
+          style={{
+            zIndex: -1,
+            left: "-100px",
+          }}
+        >
+          <g fill="none" stroke="#fff7ec" stroke-width="39px" opacity="0.8">
+            <circle cx="95" cy="95" r="95" stroke="none" />
+            <circle cx="95" cy="95" r="75.5" />
+          </g>
+        </svg>
 
-      <h1>Schedule</h1>
-      <TabSelector
-        selected={currentDay}
-        tabs={days}
-        onChange={(tabId: string) => setCurrentDay(tabId)}
-      ></TabSelector>
-      <ScheduleList data={scheduleData[currentDay]} />
-    </div>
+        <h1 className="pt-12">Schedule</h1>
+        <TabSelector
+          selected={currentDay}
+          tabs={days}
+          onChange={(tabId: string) => setCurrentDay(tabId)}
+        ></TabSelector>
+        <ScheduleList data={scheduleData[currentDay]} />
+      </div>
+    </section>
   )
 }
 

@@ -39,6 +39,7 @@ const GrowTogetherCard: React.FC<cardProp> = (cardProp) => {
           fontFamily: "Poppins",
           lineHeight: 1.32,
           opacity: 0.75,
+          fontSize: 18,
           color: "#707070",
         }}
       >

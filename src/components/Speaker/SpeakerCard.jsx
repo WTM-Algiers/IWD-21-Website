@@ -45,10 +45,14 @@ const SpeakerCard = ({ style, speaker }) => (
         <pattern
           id="img1"
           patternUnits="userSpaceOnUse"
-          width="600"
-          height="450"
+          width="300"
+          height="300"
         >
-          <image id="img1" href={speaker.image} alt="" />
+          <image
+            id="img1"
+            href={speaker.image}
+            alt={`Speaker-${speaker.image}`}
+          />
         </pattern>
       </defs>
       <path
@@ -65,8 +69,12 @@ const SpeakerCard = ({ style, speaker }) => (
       className="card transition  bg-white absolute bottom-0 w-full rounded-3xl shadow-lg  flex flex-col items-center justify-between"
       style={{ height: "80%", paddingTop: "50%" }}
     >
-      <h2 className=" text-purple-800 mb-1 text-center">{speaker.name}</h2>
-      <h4 className="text-gray-500 text-center mb-3">{speaker.title}</h4>
+      <h2 className=" text-purple-800 font-medium mb-1 text-center">
+        {speaker.name}
+      </h2>
+      <h4 className="text-gray-500 font-medium text-center mb-3">
+        {speaker.title}
+      </h4>
       <div className="flex justify-evenly gap-3 justify-self-end">
         <Icon
           src={require("../../assets/svgs/linkedin.svg")}
