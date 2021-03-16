@@ -4,6 +4,8 @@ import HeroSection from "../components/HeroSection"
 import Layout from "../layout/Layout"
 import Navbar from "../components/navbar"
 import GrowTogether from "../components/GrowTogetherSection"
+import SpeakersSection from "../components/Speaker/SpeakersSection"
+import ScheduleSection from "../components/Schedule"
 import { SeoProps } from "../layout/Seo"
 
 interface Props {}
@@ -62,6 +64,8 @@ function Index(props: PageProps<Props>): ReactElement {
           <HeroSection futureDate="2021-04-09 00:00:00"></HeroSection>
         </div>
         <GrowTogether></GrowTogether>
+        <SpeakersSection></SpeakersSection>
+        <ScheduleSection></ScheduleSection>
       </Layout>
     </>
   )
