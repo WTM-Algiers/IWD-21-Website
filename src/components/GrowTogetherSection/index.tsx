@@ -1,14 +1,5 @@
 import React from "react"
-import Cards from "./Cards"
-import iwd from "../../assets/svgs/Group33.svg"
-import ellipse from "../../assets/svgs/Ellipse15.svg"
-import groupe33 from "../../assets/svgs/Group33.svg"
-import path68 from "../../assets/svgs/Path68.svg"
-import lamp from "../../assets/svgs/lamp.svg"
-import mortarboard from "../../assets/svgs/mortarboard.svg"
-import onlineBusiness from "../../assets/svgs/online-business.svg"
-import shape from "../../assets/svgs/Shape.svg"
-import MediaQuery from "react-responsive"
+import GrowTogetherCard from "./GrowTogetherCard"
 import "../../css/growTogether.css"
 const GrowTogetherSection: React.FC = () => {
   return (
@@ -21,14 +12,14 @@ const GrowTogetherSection: React.FC = () => {
         <div style={{ overflow: "hidden" }}>
           <img
             className="absolute  "
-            src={ellipse}
+            src={require("../../assets/svgs/Ellipse15.svg")}
             alt="ellipse"
             style={{ left: "-8%", width: "18%", top: "-10vw" }}
           />
         </div>
         <img
           className="absolute w-2/5"
-          src={iwd}
+          src={require("../../assets/svgs/Iwd-Logo-Pointed.svg")}
           alt="iwd"
           style={{ boxSizing: "border-box", right: "0px", top: "-8vw" }}
         />
@@ -65,29 +56,29 @@ const GrowTogetherSection: React.FC = () => {
         </div>
         <ul className=" cards" style={{ margin: "50px auto" }}>
           <li>
-            <Cards
-              img={lamp}
+            <GrowTogetherCard
+              img={require("../../assets/svgs/lamp.svg")}
               title="Inspiration"
               text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
               color="#fff7ec"
-            ></Cards>
+            ></GrowTogetherCard>
           </li>
           <li>
-            <Cards
-              img={onlineBusiness}
+            <GrowTogetherCard
+              img={require("../../assets/svgs/online-business.svg")}
               title="Network"
               text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
               color="#e1f8e8"
-            ></Cards>
+            ></GrowTogetherCard>
           </li>
           <li>
             {" "}
-            <Cards
-              img={mortarboard}
+            <GrowTogetherCard
+              img={require("../../assets/svgs/mortarboard.svg")}
               title="Education"
               text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
               color="#e2f8fe"
-            ></Cards>{" "}
+            ></GrowTogetherCard>{" "}
           </li>
         </ul>
         <div
@@ -118,19 +109,19 @@ const GrowTogetherSection: React.FC = () => {
           ></div>
           <img
             className="absolute"
-            src={path68}
+            src={require("../../assets/svgs/CurvedLine.svg")}
             alt="path"
             style={{ top: "-3vw", left: "-9%", zIndex: 1 }}
           />
           <img
             className="absolute"
-            src={ellipse}
+            src={require("../../assets/svgs/Ellipse15.svg")}
             alt="circle"
             style={{ width: "20%", right: "0", zIndex: 0 }}
           />
           <img
             className="absolute"
-            src={ellipse}
+            src={require("../../assets/svgs/Ellipse15.svg")}
             alt="circle"
             style={{
               width: "1.5%",
@@ -209,7 +200,7 @@ const GrowTogetherSection: React.FC = () => {
             </h3>
           </div>
           <img
-            src={shape}
+            src={require("../../assets/svgs/Shape.svg")}
             alt="shape"
             className="absolute"
             style={{

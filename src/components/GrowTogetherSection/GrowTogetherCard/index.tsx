@@ -6,7 +6,7 @@ interface cardProp {
   text: string
   color: string
 }
-const Cards: React.FC<cardProp> = (cardProp) => {
+const GrowTogetherCard: React.FC<cardProp> = (cardProp) => {
   return (
     <div
       className="card"
@@ -48,4 +48,4 @@ const Cards: React.FC<cardProp> = (cardProp) => {
   )
 }
 
-export default Cards
+export default GrowTogetherCard
