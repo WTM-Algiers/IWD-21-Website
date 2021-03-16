@@ -5,12 +5,13 @@ import Booknow from "./BookNow"
 
 interface IProps {
   futureDate: string
+  eventDates: string
 }
 
 class HomeSection extends Component<IProps> {
   render() {
     return (
-      <div className="homesection">
+      <section className="homesection">
         <div className="lines">
           <img
             src={require("../../assets/svgs/Path87.svg")}
@@ -26,7 +27,7 @@ class HomeSection extends Component<IProps> {
         </div>
 
         <div className="lefthero">
-          <Description></Description>
+          <Description eventDates={this.props.eventDates}></Description>
           <Countdown futureDate={this.props.futureDate}></Countdown>
         </div>
 
@@ -39,7 +40,7 @@ class HomeSection extends Component<IProps> {
             alt="Hero-Icon"
           ></img>
         </div>
-      </div>
+      </section>
     )
   }
 }

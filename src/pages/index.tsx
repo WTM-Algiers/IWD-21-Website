@@ -61,7 +61,10 @@ function Index(props: PageProps<Props>): ReactElement {
       >
         <div className="backgroundfix">
           <Navbar />
-          <HeroSection futureDate="2021-04-09 00:00:00"></HeroSection>
+          <HeroSection
+            futureDate="2021-04-09 00:00:00"
+            eventDates="04-10 Apr,2021"
+          ></HeroSection>
         </div>
         <GrowTogether></GrowTogether>
         <SpeakersSection></SpeakersSection>

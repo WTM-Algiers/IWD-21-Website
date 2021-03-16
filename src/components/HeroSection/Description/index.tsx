@@ -1,10 +1,12 @@
 import React, { Component } from "react"
-
-class Description extends Component {
+interface IProps {
+  eventDates: string
+}
+class Description extends Component<IProps> {
   render() {
     return (
       <div className="descreption">
-        <div className="date-desc">20-22 Apr, 2021</div>
+        <div className="date-desc">{this.props.eventDates}</div>
         <div className="international-desc">
           International <br />
           Women's Day

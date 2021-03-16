@@ -627,19 +627,19 @@ pre tt:after {
 .countdown-segment{
   position: relative;
   background-color: white;
-  border-radius: 20%;
+  border-radius: 30%;
   display: inline-block;
   margin-right: 6%;
-  font-size: 30px;
+  font-size: 48px;
   text-align: center;
   padding-top: 23px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
-  width: 13%;
-  height: 100px;
+  width: 15%;
+  height: 120px;
   font-family: "Poppins",ExtraBold;
 }
 .countdown-segment-caption{
-  font-size: 16px;
+  font-size: 22px;
   font-family: "Poppins",Regular;
   font-weight: normal;
   font-stretch: normal;
@@ -650,6 +650,7 @@ pre tt:after {
 .countdown-segment-nb{
     padding-bottom: 0px;
     font-weight: 800;
+    padding-top: 10%;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -662,8 +663,8 @@ pre tt:after {
 }
 .date-desc{
   font-family: Poppins;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 36px;
+  font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -672,7 +673,7 @@ pre tt:after {
 }
 .international-desc{
   font-family: Poppins;
-  font-size: 65px;
+  font-size: 80px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -685,7 +686,7 @@ pre tt:after {
 }
 .desc-desc{
   font-family: Poppins;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
   font-stretch: normal;
   font-style: normal;
@@ -710,21 +711,22 @@ pre tt:after {
   background-color: #5dd64f;
   border-radius: 50%;
   color: white;
-  height: 100px;
-  width: 100px;
-  right:20%;
-  top:400px;
-  padding: 25px 0;
+  height: 150px;
+  width: 150px;
+  right:25%;
+  vertical-align: middle;
+  top:500px;
+  padding: 60px 0;
   line-height: 25px;
   font-size: 22px;
   font-family: "Poppins",Medium;
   text-align: center;
 }
 .imagehero{
-  width: 50%;
+  width: 70%;
   z-index: 1;
-  margin-left: 10%;
-  margin-top: -20px;
+  margin-left: 5%;
+  margin-top: -120px;
 }
 .lefthero{
   width: 60%;
@@ -742,18 +744,30 @@ pre tt:after {
 }
 .line1{
   position: absolute;
-  height: 500px;
+  height: 900px;
   overflow: hidden;
-  top: 400px;
+  top: 300px;
 }
 .line2{
-  margin-left: 200px;
-  height: 500px;
+  margin-left: 5%;
   overflow: hidden;
   top: 0px;
   transform: rotate(230deg);
 }
 @media only screen and (max-width:1131px){
+  .booknow{
+    top:250px;
+    right: 200px;
+    height: 70px;
+    width: 70px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .line1{
+    position: absolute;
+    height: 450px;
+    overflow: hidden;
+  }
   .lefthero{
     width: 65%;
   }
@@ -765,6 +779,9 @@ pre tt:after {
   }
   .date-desc{
      font-size: 18px;
+  }
+  .countdown-segment{
+    height: 100px;
   }
   .countdown-segment-caption{
     font-size: 14px;
@@ -791,7 +808,7 @@ pre tt:after {
   width: 50%;
   }
   .booknow{
-    top:320px;
+    top:200px;
     right: 150px;
     height: 70px;
     width: 70px;
@@ -824,14 +841,14 @@ pre tt:after {
   }
   .imagehero{
     position: absolute;
-    top:570px;
+    top:620px;
     right: 200px;
     max-width: 600px;
   }
   .booknow{
     position: absolute;
     right: 50%;
-    top:55%;
+    top:52%;
   }
   .lefthero{
     width: 100%;

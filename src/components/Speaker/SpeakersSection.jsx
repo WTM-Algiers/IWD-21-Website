@@ -91,11 +91,12 @@ const SpeakersCards = speakers.map((speaker) => (
 function SpeakersSection() {
   return (
     <Section className="flex flex-col items-center p-4 px-20">
-      <img
+      {/**<img
         src={require("../../assets/svgs/wavedLine.svg")}
         alt="wavedLine"
         style={{ position: "absolute", zIndex: 0, bottom: 0 }}
-      />
+      /> */}
+
       <h1 className=" font-extrabold text-5xl">Speakers</h1>
       <p>
         These amazing extra-active, tech-savy, out of the ordinary speakers will
