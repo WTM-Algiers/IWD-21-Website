@@ -18,7 +18,8 @@ const INDEX_SEO: SeoProps = {
     description: "IWD 21 event from WTM Algiers",
     images: [
       {
-        url: "https://i.ibb.co/kQgBCJD/devfest-Card.png",
+        url:
+          "https://firebasestorage.googleapis.com/v0/b/gdg-wtm-website.appspot.com/o/iwd-event-platform.png?alt=media&token=58c78506-2a23-413a-a96c-b80c19dc7639",
         width: 800,
         height: 600,
         alt: "iwd21",
