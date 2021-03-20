@@ -11,6 +11,7 @@
     "gatsby-plugin-next-seo": "^1.6.1",
     "gatsby-plugin-robots-txt": "^1.5.3",
     "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-transformer-inline-svg": "^0.1.0",
     "moment": "^2.29.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
