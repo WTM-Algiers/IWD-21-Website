@@ -2,6 +2,7 @@ import React, { ReactElement, useState } from "react"
 import ScheduleCard from "./ScheduleCard"
 import classnames from "classnames"
 import data from "./schedule.json"
+import Section from "../Section"
 interface Props {}
 
 interface ScheduleData {
@@ -108,7 +109,7 @@ function ScheduleSection({}: Props): ReactElement {
   const days = Object.keys(scheduleData)
   const [currentDay, setCurrentDay] = useState(days[0])
   return (
-    <section id="Schedule">
+    <Section id="schedule">
       <div className="flex flex-col justify-center items-center w-full relative">
         {/*<svg
         xmlns="http://www.w3.org/2000/svg"
@@ -162,7 +163,7 @@ function ScheduleSection({}: Props): ReactElement {
         ></TabSelector>
         <ScheduleList data={scheduleData[currentDay]} />
       </div>
-    </section>
+    </Section>
   )
 }
 

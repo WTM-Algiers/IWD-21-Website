@@ -91,7 +91,7 @@ const SpeakersCards = speakers.map((speaker) => (
 
 function SpeakersSection() {
   return (
-    <Section className="flex flex-col items-center p-4 px-20" id="Speakers">
+    <Section className="flex flex-col items-center p-4 px-20" id="speakers">
       <img
         src={require("../../assets/svgs/wavedLine.svg")}
         alt="wavedLine"

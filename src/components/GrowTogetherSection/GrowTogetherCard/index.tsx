@@ -11,7 +11,7 @@ const GrowTogetherCard: React.FC<cardProp> = (cardProp) => {
     <div
       className="card"
       style={{
-        /*width:"300px"*/ width: "100%",
+        /*width:"300px"*/ width: "80%",
         /*height:'27vw'*/ boxSizing: "border-box",
         backgroundColor: cardProp.color,
         borderRadius: "49px",

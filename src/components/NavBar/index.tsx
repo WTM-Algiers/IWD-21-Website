@@ -18,12 +18,12 @@ const links = [
     linkUrl: INDEX_ABOUT_SECTION,
   },
   {
-    linkName: "Schedule",
-    linkUrl: INDEX_SCHEDULE_SECTION,
-  },
-  {
     linkName: "Speakers",
     linkUrl: INDEX_SPEAKERS_SECTION,
+  },
+  {
+    linkName: "Schedule",
+    linkUrl: INDEX_SCHEDULE_SECTION,
   },
 ]
 

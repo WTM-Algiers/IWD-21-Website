@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react"
-import { H3, H5 } from "../typography"
+import { H3 } from "../typography"
 import { Link } from "gatsby"
 import Section from "../Section"
 function Footer(): ReactElement {
@@ -68,7 +68,7 @@ function Footer(): ReactElement {
           <H3 className="text-white text-base md:text-xl">GDG Algiers</H3>
         </Link>
 
-        <Link to="https://www.wtm-algiers.tech/" target="_blank">
+        <Link to="https://www.wtmalgiers.org/" target="_blank">
           <H3 className="text-white text-base md:text-xl">WTM Algiers</H3>
         </Link>
 

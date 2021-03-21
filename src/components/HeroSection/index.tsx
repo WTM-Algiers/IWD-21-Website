@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Countdown from "./Countdown"
 import Description from "./Description"
 import Booknow from "./BookNow"
+import Section from "../Section"
 
 interface IProps {
   futureDate: string
@@ -11,7 +12,7 @@ interface IProps {
 class HomeSection extends Component<IProps> {
   render() {
     return (
-      <section className="homesection">
+      <Section id="home" className="homesection">
         <div className="lines">
           <img
             src={require("../../assets/svgs/Path87.svg")}
@@ -40,7 +41,7 @@ class HomeSection extends Component<IProps> {
             alt="Hero-Icon"
           ></img>
         </div>
-      </section>
+      </Section>
     )
   }
 }
