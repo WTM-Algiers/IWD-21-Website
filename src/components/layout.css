@@ -600,13 +600,13 @@ pre tt:after {
   background-image: linear-gradient(295deg, #ecf3fc 99%, #e5f9f8 46%, #fefaff 2%);
 }
 .homesection{
-   width: 100%;
-   overflow:hidden;
-    display: flex; 
-   padding-left: 8%;
-   margin: 0px;
-   padding-top: 100px;
-   padding-bottom: 100px;
+  width: 100%;
+  overflow:hidden;
+  display: flex; 
+  padding-left: 8%;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
    
 }
 .count1{
@@ -622,35 +622,38 @@ pre tt:after {
   color: #fa9f87;
 }
 .countdown{
-  width: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
 }
 .countdown-segment{
+  width: 80px;
+  height: 100px;
+  padding-top: 15px;
   position: relative;
   background-color: white;
   border-radius: 30%;
-  display: inline-block;
-  margin-right: 6%;
-  font-size: 48px;
   text-align: center;
-  padding-top: 23px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
-  width: 15%;
-  height: 120px;
   font-family: "Poppins",ExtraBold;
 }
+
 .countdown-segment-caption{
-  font-size: 22px;
+  font-size: 0.8em;
   font-family: "Poppins",Regular;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
-  color: rgba(112, 112, 112, 0.69);
+  color: rgba(134, 56, 56, 0.69);
+  position: relative;
+  top: -15px;
 }
 .countdown-segment-nb{
-    padding-bottom: 0px;
-    font-weight: 800;
-    padding-top: 10%;
+  padding-bottom: 0px;
+  font-size: 2em;
+  font-weight: 800;
+  padding-top: 10%;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;
@@ -763,38 +766,49 @@ pre tt:after {
     padding-top: 10px;
     font-size: 18px;
   }
+
   .line1{
     position: absolute;
     height: 450px;
     overflow: hidden;
   }
+  
   .lefthero{
     width: 65%;
   }
+  
   .imagehero{
-  width: 50%;
-}
+    width: 50%;
+  }
+
   .countdown{
     width: 120%;
   }
   .date-desc{
-     font-size: 18px;
+    font-size: 18px;
   }
+  
   .countdown-segment{
+    width: 80px;
     height: 100px;
   }
+  
   .countdown-segment-caption{
     font-size: 14px;
   }
+  
   .countdown-segment-nb{
     font-size: 28px;
   }
+  
   .international-desc{
-     font-size: 56px; 
+    font-size: 56px; 
   } 
+  
   .desc-desc{
-     font-size: 14px;
+    font-size: 14px;
   }
+  
   .countdown-desc{
     font-size: 18px;
   }
@@ -805,8 +819,9 @@ pre tt:after {
     width: 70%;
   }
   .imagehero{
-  width: 50%;
+    width: 50%;
   }
+
   .booknow{
     top:200px;
     right: 150px;
@@ -815,23 +830,25 @@ pre tt:after {
     padding-top: 10px;
     font-size: 18px;
   }
+  
   .countdown{
-     width: 150%;
+    width: 100%;
   }
+
   .date-desc{
-     font-size: 15px; 
+    font-size: 15px; 
   }
   .countdown-segment-caption{
-     font-size: 13px; 
+    font-size: 13px; 
   }
   .international-desc{
-     font-size: 48px; 
+    font-size: 48px; 
   } 
   .desc-desc{
-     font-size: 12px; 
+    font-size: 12px; 
   }
   .countdown-desc{
-     font-size: 15px;
+    font-size: 15px;
   }
 }
 @media only screen and (max-width:760px){
@@ -853,41 +870,49 @@ pre tt:after {
   .lefthero{
     width: 100%;
   }
+  
   .countdown{
-     width: 100%;
+    width: 100%;
   }
+  
   .countdown-segment{
-    margin-right: 3%;
-    width: 13%;
-    height: 80px;
+    width: 80px;
+    height: 100px;
     padding-top: 15px;
   }
+  
   .date-desc{
      font-size: 15px; 
   }
+  
   .countdown-segment-caption{
      font-size: 12px; 
   }
+  
   .countdown-segment-nb{
      font-size: 24px;
   }
+  
   .international-desc{
-     font-size: 42px; 
+    font-size: 42px; 
   } 
+  
   .desc-desc{
-     font-size: 11px; 
+    font-size: 11px; 
   }
+  
   .countdown-desc{
-     font-size: 13px;
+    font-size: 13px;
   }
 }
+
 @media only screen and (max-width:610px){
   .countdown-segment{
-    margin-right: 3%;
-    width: 15%;
-    height: 80px;
+    width: 80px;
+    height: 100px;
     padding-top: 15px;
   }
+
   .imagehero{
     position: absolute;
     right: 70px;
@@ -898,36 +923,45 @@ pre tt:after {
   .homesection{
     position: static;
   }
+
   .imagehero{
     width: 80%;
     right: 10%;
   }
+
   .lefthero{
     width: 100%;
   }
+
   .countdown{
      width: 100%;
   }
+
   .countdown-segment{
     margin-right: 4%;
     width: 20%;
     height: 80px;
     padding-top: 15px;
   }
+
   .date-desc{
-     font-size: 15px; 
+    font-size: 15px; 
   }
+
   .countdown-segment-caption{
-     font-size: 12px; 
+    font-size: 12px; 
   }
+
   .countdown-segment-nb{
-     font-size: 24px;
+    font-size: 24px;
   }
+
   .international-desc{
-     font-size: 42px; 
+    font-size: 42px; 
   } 
+
   .desc-desc{
-     font-size: 11px; 
+    font-size: 11px; 
   }
   .countdown-desc{
      font-size: 13px;
@@ -942,20 +976,25 @@ pre tt:after {
   .countdown-segment-nb{
      font-size: 18px;
   }
+  
   .international-desc{
      font-size: 35px; 
   } 
+  
   .desc-desc{
      font-size: 11px; 
   }
+
   .countdown-desc{
      font-size: 12px;
   }
+
   .imagehero{
     top: 650px;
     width: 80%;
     right: 10%;
   }
+
   .booknow{
     right: 50%;
     top:55%;
@@ -965,21 +1004,25 @@ pre tt:after {
     font-size: 18px;
   }
 }
+
 @media only screen and (max-width:922px){
   .line2{
     display: none;
   }
 }
+
 @media only screen and (max-width:1050px){
   .line1{
     top: 365px;
   }
 }
+
 @media only screen and (max-width:890px){
   .line1{
     top: 328px;
   }
 }
+
 /* Footer Styling  */
 .footer2{
   color: white ; 
@@ -992,29 +1035,33 @@ pre tt:after {
   width: 100%;
   text-align: center;
 }
+
 .footer_nav2{
-text-align: center;
+  text-align: center;
   color:white;
   font-size: 18px ;
 }
+
 .socialmedia2{
   display: flex;
   margin: 0 auto;
   width:inherit;
   justify-content: center;
 }
+
 .socialmedia2 > a > img{
  width:70px;
  cursor: pointer;
 
 }
+
 .socialmedia2 > a{
   margin: 0 4%;
 }
+
 .footerlogo2{
   display: block;
-margin-left: auto;
-margin-right: auto;
-width:150px;
-
+  margin-left: auto;
+  margin-right: auto;
+  width:150px;
 }

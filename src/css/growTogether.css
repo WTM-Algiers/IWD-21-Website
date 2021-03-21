@@ -1,86 +1,58 @@
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    /*width:80%;*/
-    max-width: 1300px;
-    column-gap:10%;
+.cards
+{
+  display: flex;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width:100%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.card{
-  height: 400px;
+
+.card
+{
+  width: 300px;
+  margin: 20px;
+  padding: 25px;
 }
-.card h1{
+
+.card h1
+{
   font-size: 25px;
+}
 
+.card p
+{
+  font-size: 15px;
 }
-.card p{
-   font-size: 15px;
-}
-.letsgr h1{
+
+.letsgr h1
+{
   font-size: 5vw;
-
 }
-.letsgr p{
+
+.letsgr p
+{
   font-size:1.3vw;
-
 }
-.placeholder{
+
+.placeholder
+{
   width:6vw;
   height: 6vw;
   background-color: rgb(214, 123, 123);
   border-radius:50% ;
   position: absolute;
 }
-.learnfr{
-  margin: 10vw 0 3vw 0;
-}
-.learnfr h1{
-  font-size:3.8vw ;
-}
-.learnfr p{
-  font-size:1.3vw ;
-}
-@media  (max-width: 960px) {
-    .cards{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    width:350px ;
-    row-gap: 20px;
-    
-  }
-  .cards:after{
-    content: '';
-    margin-bottom: 0px;
-  }
-  .card{
-     height: auto;
-  }
-  .card h1{
-     font-size: 20px;
-  }
-  .card p{
-    font-size: 15px;
 
-  }
-  .card img{
-    width: 60px;
+.learnfr h1
+{
+  font-size:3.8vw;
+}
 
-  }
+.learnfr p
+{
+  font-size:1.3vw;
+}
 
-  .letsgr h1{
-    font-size: 6.5vw;
+@media only screen and (max-width: 960px) {
   
-  }
-  .letsgr p{
-    font-size:2.5vw;
-  
-  }
-  .learnfr{
-    margin: 4.2vw 0 3vw 0;
-  }
-  .learnfr h1{
-    font-size: 4.4vw;
-  }
-  .learnfr p{
-    font-size:2.2vw ;
-  }
-
 }

@@ -30,12 +30,20 @@ module.exports = {
     },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-next-seo`,
+    `gatsby-transformer-inline-svg`,
     "gatsby-plugin-robots-txt",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `assets`,
+        path: `${__dirname}/src/assets`,
       },
     },
     "gatsby-plugin-postcss",
