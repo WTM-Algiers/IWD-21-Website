@@ -46,7 +46,13 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link to="/" className="logo">
-        <img src={require("../../assets/svgs/Logo.svg")} alt="IWD logo" />
+        <img
+          src={require("../../assets/svgs/Logo.svg")}
+          alt="IWD logo"
+          style={{
+            width: "40%",
+          }}
+        />
       </Link>
 
       <a
