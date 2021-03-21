@@ -6,6 +6,7 @@ import Navbar from "../components/NavBar"
 import GrowTogether from "../components/GrowTogetherSection"
 import SpeakersSection from "../components/Speaker/SpeakersSection"
 import ScheduleSection from "../components/Schedule"
+import CovidBar from "../components/CovidBar"
 import Footer from "../components/Footer"
 import { SeoProps } from "../layout/Seo"
 
@@ -61,10 +62,11 @@ function Index(props: PageProps<Props>): ReactElement {
           ...INDEX_SEO,
         }}
       >
+        <CovidBar></CovidBar>
         <div className="backgroundfix">
           <Navbar />
           <HeroSection
-            futureDate="2021-04-09 00:00:00"
+            futureDate="2021-04-04 00:00:00"
             eventDates="04-10 Apr,2021"
           ></HeroSection>
         </div>

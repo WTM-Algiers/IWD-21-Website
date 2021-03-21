@@ -715,7 +715,7 @@ pre tt:after {
   width: 150px;
   right:25%;
   vertical-align: middle;
-  top:500px;
+  top:570px;
   padding: 60px 0;
   line-height: 25px;
   font-size: 22px;
@@ -737,7 +737,7 @@ pre tt:after {
   margin: 0px;
   position: absolute;
   width: 100%;
-  top: 0px;
+  top: 80px;
   right: 0px;
   height: 900px;
   overflow: hidden;
@@ -756,7 +756,7 @@ pre tt:after {
 }
 @media only screen and (max-width:1131px){
   .booknow{
-    top:250px;
+    top:300px;
     right: 200px;
     height: 70px;
     width: 70px;
@@ -772,7 +772,7 @@ pre tt:after {
     width: 65%;
   }
   .imagehero{
-  width: 50%;
+  width: 60%;
 }
   .countdown{
     width: 120%;
@@ -802,13 +802,14 @@ pre tt:after {
 
 @media only screen and (max-width:939px){
   .lefthero{
-    width: 70%;
+    width: 80%;
   }
   .imagehero{
-  width: 50%;
+    margin-top:2px;
+  width: 70%;
   }
   .booknow{
-    top:200px;
+    top:400px;
     right: 150px;
     height: 70px;
     width: 70px;
@@ -825,7 +826,7 @@ pre tt:after {
      font-size: 13px; 
   }
   .international-desc{
-     font-size: 48px; 
+     font-size: 40px; 
   } 
   .desc-desc{
      font-size: 12px; 
