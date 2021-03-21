@@ -15,20 +15,18 @@ const Section = styled.section`
 
 const speakers = [
   {
-    name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
-    title: "Dev Comanager Comanager Comanager ",
+    name: "Amine Riad REMACHE",
+    image: "./RiadRemache.jpg",
+    title: "Intern at MUNIC",
     social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
+      facebook: "https://www.facebook.com/remacheamine",
+      twitter: "https://twitter.com/AmineRemache",
+      linkedin: "https://fr.linkedin.com/in/amineremache/",
     },
   },
   {
-    name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
+    name: "Kahina Fekir",
+    image: "./RiadRemache.jpg",
     title: "Dev Comanager",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
@@ -38,8 +36,7 @@ const speakers = [
   },
   {
     name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
+    image: "./RiadRemache.jpg",
     title: "Dev Comanager",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
@@ -49,8 +46,7 @@ const speakers = [
   },
   {
     name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
+    image: "./RiadRemache.jpg",
     title: "Dev Comanager",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
@@ -60,8 +56,7 @@ const speakers = [
   },
   {
     name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
+    image: "./RiadRemache.jpg",
     title: "Dev Comanager",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
@@ -71,8 +66,7 @@ const speakers = [
   },
   {
     name: "Akram Boutou",
-    image:
-      "https://pbs.twimg.com/profile_images/1158863262886375424/_O3beJk__400x400.jpg",
+    image: "./RiadRemache.jpg",
     title: "Dev Comanager",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",

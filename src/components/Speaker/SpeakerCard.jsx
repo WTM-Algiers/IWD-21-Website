@@ -25,76 +25,79 @@ const Card = styled.div`
   transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
 `
 
-const SpeakerCard = ({ style, speaker }) => (
-  <BigCard
-    style={{
-      ...style,
-      minHeight: 350,
-    }}
-    className=" flex flex-col relative items-center "
-  >
-    <svg
+const SpeakerCard = ({ style, speaker }) => {
+  const images = require.context("../../assets/pngs", true)
+  return (
+    <BigCard
       style={{
-        width: "75%",
-        position: "relative",
-        zIndex: 1,
+        ...style,
+        minHeight: 350,
       }}
-      viewBox="0 0 224.374 204.018"
+      className=" flex flex-col relative items-center "
     >
-      <defs>
-        <pattern
-          id="img1"
-          patternUnits="userSpaceOnUse"
-          width="300"
-          height="300"
-        >
-          <image
+      <svg
+        style={{
+          width: "75%",
+          position: "relative",
+          zIndex: 1,
+        }}
+        viewBox="0 0 224.374 204.018"
+      >
+        <defs>
+          <pattern
             id="img1"
-            href={speaker.image}
-            alt={`Speaker-${speaker.image}`}
-          />
-        </pattern>
-      </defs>
-      <path
-        id="Path_89"
-        data-name="Path 89"
-        d="M235.152,129.78c8.347,14.41,28.2,50.676,27.085,79.544-1.145,29.666-14.435,37.65-42.194,51.652s-101.987,12.862-136.56,0S39.7,237.137,38,207.162c-1.613-28.508,17.974-62.914,26.355-77.382,8.979-15.5,43.115-62.743,85.813-62.743S227.061,115.812,235.152,129.78Z"
-        transform="translate(-37.908 -67.037)"
-        opacity="0.9"
-        fill="url(#img1)"
-      />
-    </svg>
+            patternUnits="userSpaceOnUse"
+            width="300"
+            height="300"
+          >
+            <image
+              id="img1"
+              src={images(speaker.image)}
+              alt={`Speaker-${speaker.image}`}
+            />
+          </pattern>
+        </defs>
+        <path
+          id="Path_89"
+          data-name="Path 89"
+          d="M235.152,129.78c8.347,14.41,28.2,50.676,27.085,79.544-1.145,29.666-14.435,37.65-42.194,51.652s-101.987,12.862-136.56,0S39.7,237.137,38,207.162c-1.613-28.508,17.974-62.914,26.355-77.382,8.979-15.5,43.115-62.743,85.813-62.743S227.061,115.812,235.152,129.78Z"
+          transform="translate(-37.908 -67.037)"
+          opacity="0.9"
+          fill="url(#img1)"
+        />
+      </svg>
 
-    <Card
-      className="card transition  bg-white absolute bottom-0 w-full rounded-3xl shadow-lg  flex flex-col items-center justify-between"
-      style={{ height: "80%", paddingTop: "50%" }}
-    >
-      <h2 className=" text-purple-800 font-medium mb-1 text-center">
-        {speaker.name}
-      </h2>
-      <h4 className="text-gray-500 font-medium text-center mb-3">
-        {speaker.title}
-      </h4>
-      <div className="flex justify-evenly gap-3 justify-self-end">
-        <Icon
-          src={require("../../assets/svgs/linkedin.svg")}
-          alt="linkedin icon"
-          onClick={() => window.open(speaker.social.facebook, "_blank")}
-        />
-        <Icon
-          src={require("../../assets/svgs/facebook.svg")}
-          alt="facebook icon"
-          onClick={() => window.open(speaker.social.linkedin, "_blank")}
-        />
-        <Icon
-          src={require("../../assets/svgs/twitter.svg")}
-          alt="facebook icon"
-          onClick={() => window.open(speaker.social.twitter, "_blank")}
-        />
-      </div>
-    </Card>
-  </BigCard>
-)
+      <Card
+        className="card transition  bg-white absolute bottom-0 w-full rounded-3xl shadow-lg  flex flex-col items-center justify-between"
+        style={{ height: "80%", paddingTop: "50%" }}
+      >
+        <h2 className=" text-purple-800 font-medium mb-1 text-center">
+          {speaker.name}
+        </h2>
+        <h4 className="text-gray-500 font-medium text-center mb-3">
+          {speaker.title}
+        </h4>
+        <div className="flex justify-evenly gap-3 justify-self-end">
+          <Icon
+            src={require("../../assets/svgs/linkedin.svg")}
+            alt="linkedin icon"
+            onClick={() => window.open(speaker.social.facebook, "_blank")}
+          />
+          <Icon
+            src={require("../../assets/svgs/facebook.svg")}
+            alt="facebook icon"
+            onClick={() => window.open(speaker.social.linkedin, "_blank")}
+          />
+          <Icon
+            src={require("../../assets/svgs/twitter.svg")}
+            alt="facebook icon"
+            onClick={() => window.open(speaker.social.twitter, "_blank")}
+          />
+        </div>
+      </Card>
+    </BigCard>
+  )
+}
 
 SpeakerCard.propTypes = {
   speaker: PropTypes.object,

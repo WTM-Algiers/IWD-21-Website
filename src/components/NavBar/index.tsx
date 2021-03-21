@@ -65,7 +65,10 @@ function Navbar() {
         <ul>
           {navElements}
           <li>
-            <Link to="#" className="register-btn">
+            <Link
+              to="https://tripetto.app/run/T06ISDL4E9"
+              className="register-btn"
+            >
               Register
             </Link>
           </li>
