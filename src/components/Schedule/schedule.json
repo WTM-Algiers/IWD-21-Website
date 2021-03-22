@@ -1,78 +1,85 @@
 {
-  "20 Apr, 21": [
+  "4-8 Apr, 21": [
     {
       "uid": "1",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Devops et les prérequis pour y devenir",
+      "subtitle": "Ikram Manseri | Sunday, April 4th",
+      "time": "19:00",
+      "avatar": "./IkramManseriSchedule.jpg"
     },
     {
       "uid": "2",
-      "title": "Design better professional UI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Get the courage to start a research career",
+      "subtitle": "Benhamida Fatima Zohra | Monday, April 5th",
+      "time": "19:00",
+      "avatar": "./Benhamida.jpg"
     },
     {
       "uid": "3",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Get the courage to Study Abroad",
+      "subtitle": "Kahina Fekir | Tuesday, April 6th",
+      "time": "19:00",
+      "avatar": "./KahinaFekirSchedule.jpeg"
     },
     {
       "uid": "4",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Get the courage to jump and start with Kiddy Sorties",
+      "subtitle": "Leila Benyoucef | Wednesday, April 7th",
+      "time": "19:00",
+      "avatar": "./LeilaBenyoucefSchedule.jpg"
+    },
+    {
+      "uid": "5",
+      "title": "What they do not teach you in engineering school",
+      "subtitle": "Amine Riad Remache | Thursday, April 8th",
+      "time": "20:00",
+      "avatar": "./RiadRemacheSchedule.jpg"
     }
   ],
-  "21 Apr, 21": [
+  "9 Apr, 21": [
     {
       "uid": "1",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Introduction to Cybersecurity",
+      "subtitle": "Wassila Rania Harzeli",
+      "time": "9:00",
+      "avatar": "./WassilaRaniaHarzeli.jpg"
     },
     {
       "uid": "2",
-      "title": "Design better professional UI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
-    }
-  ],
-  "22 Apr, 21": [
-    {
-      "uid": "1",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
-    },
-    {
-      "uid": "2",
-      "title": "Design better professional UI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Introduction into Deep Learning",
+      "subtitle": "Aymen Berriche",
+      "time": "9:00",
+      "avatar": "./AymenBerriche.jpg"
     },
     {
       "uid": "3",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "title": "Software Architecture",
+      "subtitle": "Yacine Benkaidali",
+      "time": "9:00",
+      "avatar": "./YacineBenkaidali.jpg"
+    }
+  ],
+  "10 Apr, 21": [
+    {
+      "uid": "1",
+      "title": "Let's talk Flutter",
+      "subtitle": "Narimane Hennouni",
+      "time": "9:00",
+      "avatar": "./Narimane.jpg"
     },
     {
-      "uid": "4",
-      "title": "Machine Learning and AI",
-      "subtitle": "Anna smith",
-      "time": "8:00",
-      "avatar": "https://api.time.com/wp-content/uploads/2018/12/square-meghan-markle-person-of-the-year-2018.jpg?quality=85"
+      "uid": "2",
+      "title": "Modern Blogs with Modern Technologies",
+      "subtitle": "Smail Kourta",
+      "time": "9:00",
+      "avatar": "./smailKourta.jpg"
+    },
+    {
+      "uid": "3",
+      "title": "Get the courage to learn UX/UI",
+      "subtitle": "Haidour Asma",
+      "time": "9:00",
+      "avatar": "./AsmaaHaidour.jpg"
     }
   ]
 }

@@ -35,6 +35,8 @@ function ScheduleCard({
 }: ScheduleProps): ReactElement {
   const { timeStyle, containerStyle, titleStyle, subtitleStyle } =
     extraStyling ?? {}
+  const images = require.context("../../assets/pngs", true)
+
   return (
     <Wrapper
       color={backgroundColor}
@@ -49,7 +51,11 @@ function ScheduleCard({
         >
           {time}
         </TimeContainer>
-        <Avatar className="rounded-full mb-0" src={avatarSrc} alt={avatarAlt} />
+        <Avatar
+          className="rounded-full mb-0"
+          src={images(avatarSrc)}
+          alt={avatarAlt}
+        />
       </div>
 
       <ContentContainer>
