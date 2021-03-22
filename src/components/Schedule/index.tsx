@@ -120,33 +120,39 @@ function ScheduleSection({}: Props): ReactElement {
   return (
     <Section id="schedule">
       <div className="flex flex-col justify-center items-center w-full relative">
-        {/* <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="190"
-        height="190"
-        viewBox="0 0 190 190"
-        className="absolute right-0"
-        style={{
-          zIndex: 2,
-          right: -95,
-          top: -95,
-        }}
-      >
-        <defs>
-          <linearGradient
-            id="r4eqep0e3a"
-            x1=".5"
-            x2=".5"
-            y2="1"
-            gradientUnits="objectBoundingBox"
-          >
-            <stop offset="0" stop-color="#ffeefd" />
-            <stop offset="1" stop-color="#f5e4a4" />
-          </linearGradient>
-        </defs>
-        <circle className="overflow-hidden" cx="95" cy="95" r="95" fill="url(#r4eqep0e3a)" />
-      </svg>
-     
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="190"
+          height="190"
+          viewBox="0 0 190 190"
+          className="absolute right-0"
+          style={{
+            zIndex: 2,
+            right: -95,
+            top: -95,
+          }}
+        >
+          <defs>
+            <linearGradient
+              id="r4eqep0e3a"
+              x1=".5"
+              x2=".5"
+              y2="1"
+              gradientUnits="objectBoundingBox"
+            >
+              <stop offset="0" stop-color="#ffeefd" />
+              <stop offset="1" stop-color="#f5e4a4" />
+            </linearGradient>
+          </defs>
+          <circle
+            className="overflow-hidden"
+            cx="95"
+            cy="95"
+            r="95"
+            fill="url(#r4eqep0e3a)"
+          />
+        </svg>
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="190"
@@ -162,7 +168,7 @@ function ScheduleSection({}: Props): ReactElement {
             <circle cx="95" cy="95" r="95" stroke="none" />
             <circle cx="95" cy="95" r="75.5" />
           </g>
-        </svg> */}
+        </svg>
 
         <h1 className="pt-12">Schedule</h1>
         <TabSelector

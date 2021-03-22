@@ -75,6 +75,8 @@ const SpeakerCard = ({ style, speaker }) => {
       style={{
         ...style,
         minHeight: 350,
+        position: "relative",
+        zIndex: 3,
       }}
       className=" flex flex-col relative items-center "
     >
