@@ -78,24 +78,6 @@ const SpeakerCard = ({ style, speaker }) => {
       }}
       className=" flex flex-col relative items-center "
     >
-      {/**
-       *  <div
-        className="flex justify-center"
-        style={{
-          height: "60%",
-          position: "relative",
-          zIndex: 1,
-        }}
-      >
-        <img
-          style={{
-            borderRadius: "80% 80% 40% 40% / 80% 90% 30% 40%",
-          }}
-          src={images(speaker.image)}
-          alt={`Speaker-${speaker.name}`}
-        ></img>
-      </div>
-       */}
       <SvgImagePlaceholder
         id={speaker.id}
         image={images(speaker.image)}

@@ -1,6 +1,6 @@
-import React, { CSSProperties, ReactElement } from "react"
+import React, { useState, useEffect, CSSProperties, ReactElement } from "react"
 import styled from "styled-components"
-
+import Fade from "react-reveal/Fade"
 export interface ScheduleStyling {
   containerStyle?: CSSProperties
   timeStyle?: CSSProperties
@@ -20,6 +20,27 @@ export interface ScheduleProps {
   backgroundColor: string
   extraStyling?: ScheduleStyling
 }
+
+// /**
+//  * use this if you want to show an avatar inside
+//  */
+// const AvatarComponent : React.FC<{
+//   imageSrc : string
+//   alt : string
+// }> = ({imageSrc, alt , placeholderBase64}) =>{
+//   const [source,setSource] = useState(placeholderBase64)
+//   useEffect(()=>{
+//     const trueImage = new Image()
+//     trueImage.onload = ()=>{
+
+//       setSource(trueImage.src)
+//     }
+//     trueImage.src = imageSrc
+//   },[])
+//   return (<Avatar className="rounded-full mb-0"
+//   src={source}
+//   alt={alt} / >)
+// }
 
 function ScheduleCard({
   time,

@@ -33,7 +33,7 @@ const speakers = [
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
       twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
+      linkedin: "https://fr.linkedin.com/in/kahina-fekir-98972a140",
     },
   },
   {
