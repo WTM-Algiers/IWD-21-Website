@@ -1,6 +1,7 @@
+import classNames from "classnames"
 import React, { useState, useEffect, CSSProperties, ReactElement } from "react"
 import styled from "styled-components"
-import Fade from "react-reveal/Fade"
+import classnames from "classnames"
 export interface ScheduleStyling {
   containerStyle?: CSSProperties
   timeStyle?: CSSProperties
@@ -22,7 +23,7 @@ export interface ScheduleProps {
 }
 
 // /**
-//  * use this if you want to show an avatar inside
+//  * use this if you want to show an avatar inside placeholder
 //  */
 // const AvatarComponent : React.FC<{
 //   imageSrc : string
@@ -61,7 +62,9 @@ function ScheduleCard({
   return (
     <Wrapper
       color={backgroundColor}
-      className="py-4 px-8 rounded-md shadow-md flex items-center"
+      className={classnames(
+        "py-4 px-8 rounded-md flex items-center shadow-md "
+      )}
       style={containerStyle}
     >
       <div className="flex flex-col-reverse sm:flex-row items-center justify-items-center mr-4">
