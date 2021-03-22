@@ -15,6 +15,7 @@ const Section = styled.section`
 
 const speakers = [
   {
+    id: "amine",
     name: "Amine Riad REMACHE",
     image: "./RiadRemache.jpg",
     title: "Intern at MUNIC",
@@ -25,9 +26,10 @@ const speakers = [
     },
   },
   {
+    id: "kahina",
     name: "Kahina Fekir",
-    image: "./RiadRemache.jpg",
-    title: "Dev Comanager",
+    image: "./KahinaFekir.jpeg",
+    title: "Full stack web developer ",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
       twitter: "https://twitter.com/akramboutou",
@@ -35,6 +37,7 @@ const speakers = [
     },
   },
   {
+    id: "boutou",
     name: "Akram Boutou",
     image: "./RiadRemache.jpg",
     title: "Dev Comanager",
@@ -45,6 +48,7 @@ const speakers = [
     },
   },
   {
+    id: "boutou2",
     name: "Akram Boutou",
     image: "./RiadRemache.jpg",
     title: "Dev Comanager",
@@ -55,6 +59,7 @@ const speakers = [
     },
   },
   {
+    id: "boutou3",
     name: "Akram Boutou",
     image: "./RiadRemache.jpg",
     title: "Dev Comanager",
@@ -65,6 +70,7 @@ const speakers = [
     },
   },
   {
+    id: "boutou4",
     name: "Akram Boutou",
     image: "./RiadRemache.jpg",
     title: "Dev Comanager",
