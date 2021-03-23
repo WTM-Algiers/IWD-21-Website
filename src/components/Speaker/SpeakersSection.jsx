@@ -17,7 +17,7 @@ const speakers = [
   {
     id: "amine",
     name: "Amine Riad REMACHE",
-    image: "./RiadRemache.jpg",
+    image: "./RiadRemacheSchedule.jpg",
     title: "Intern at MUNIC",
     social: {
       facebook: "https://www.facebook.com/remacheamine",
@@ -28,7 +28,7 @@ const speakers = [
   {
     id: "kahina",
     name: "Kahina Fekir",
-    image: "./KahinaFekir.jpeg",
+    image: "./KahinaFekirSchedule.jpeg",
     title: "Full stack web developer ",
     social: {
       linkedin: "https://fr.linkedin.com/in/kahina-fekir-98972a140",
