@@ -97,19 +97,19 @@ const SpeakerCard = ({ style, speaker }) => {
           {speaker.title}
         </h4>
         <div className="flex justify-evenly gap-3 justify-self-end">
-          {speaker.social.facebook && (
+          {speaker.social.linkedin && (
             <Icon
               src={require("../../assets/svgs/linkedin.svg")}
-              alt={`facebook-icon-${speaker.social.facebook}`}
-              onClick={() => window.open(speaker.social.facebook, "_blank")}
+              alt={`linkedin-icon-${speaker.name}`}
+              onClick={() => window.open(speaker.social.linkedin, "_blank")}
             />
           )}
 
-          {speaker.social.linkedin && (
+          {speaker.social.facebook && (
             <Icon
               src={require("../../assets/svgs/facebook.svg")}
-              alt={`linkedin-icon-${speaker.social.linkedin}`}
-              onClick={() => window.open(speaker.social.linkedin, "_blank")}
+              alt={`facebook-icon-${speaker.name}`}
+              onClick={() => window.open(speaker.social.facebook, "_blank")}
             />
           )}
 

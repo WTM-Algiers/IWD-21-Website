@@ -31,7 +31,6 @@ const speakers = [
     image: "./KahinaFekir.jpeg",
     title: "Full stack web developer ",
     social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
       linkedin: "https://fr.linkedin.com/in/kahina-fekir-98972a140",
     },
   },

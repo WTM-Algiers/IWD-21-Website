@@ -61,7 +61,7 @@ const GrowTogetherSection: React.FC = () => {
             <GrowTogetherCard
               img={require("../../assets/svgs/online-business.svg")}
               title="Network"
-              text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
+              text="Time to get out of your comfort zone and meet new amazing people who are interested in the same things as you!"
               color="#e1f8e8"
             ></GrowTogetherCard>
           </div>
@@ -71,7 +71,7 @@ const GrowTogetherSection: React.FC = () => {
             <GrowTogetherCard
               img={require("../../assets/svgs/mortarboard.svg")}
               title="Education"
-              text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
+              text="Learning never stops, no matter how far you go, you will always have more chances to seek knowledge"
               color="#e2f8fe"
             ></GrowTogetherCard>
           </div>
@@ -204,8 +204,8 @@ const GrowTogetherSection: React.FC = () => {
               textAlign: "left",
             }}
           >
-            Learn From
-            <br /> Women Tech Leaders
+            Learn From amazing
+            <br /> Tech Leaders
           </h1>
           <p
             style={{
@@ -220,9 +220,10 @@ const GrowTogetherSection: React.FC = () => {
               color: "#4e4e4e",
             }}
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
-            deleniti ullam repellendus sed veniam, provident cum dolorum
-            perspiciatis labore dicta!
+            This event is in honor of women’s great achievements, but it does
+            not exclude men, because we believe that they are part of the
+            solution, check out what these amazing men and women are planning
+            for you!
           </p>
         </div>
       </div>
