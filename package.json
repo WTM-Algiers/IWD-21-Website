@@ -18,7 +18,9 @@
     "react-helmet-async": "^1.0.7",
     "react-responsive": "^8.1.0",
     "react-reveal": "^1.2.2",
-    "sharp": "^0.25.4"
+    "sharp": "^0.25.4",
+    "tripetto-runner-autoscroll": "^4.0.2",
+    "tripetto-services": "^1.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
