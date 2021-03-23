@@ -95,21 +95,29 @@ const SpeakerCard = ({ style, speaker }) => {
           {speaker.title}
         </h4>
         <div className="flex justify-evenly gap-3 justify-self-end">
-          <Icon
-            src={require("../../assets/svgs/linkedin.svg")}
-            alt="linkedin icon"
-            onClick={() => window.open(speaker.social.facebook, "_blank")}
-          />
-          <Icon
-            src={require("../../assets/svgs/facebook.svg")}
-            alt="facebook icon"
-            onClick={() => window.open(speaker.social.linkedin, "_blank")}
-          />
-          <Icon
-            src={require("../../assets/svgs/twitter.svg")}
-            alt="facebook icon"
-            onClick={() => window.open(speaker.social.twitter, "_blank")}
-          />
+          {speaker.social.facebook && (
+            <Icon
+              src={require("../../assets/svgs/linkedin.svg")}
+              alt={`facebook-icon-${speaker.social.facebook}`}
+              onClick={() => window.open(speaker.social.facebook, "_blank")}
+            />
+          )}
+
+          {speaker.social.linkedin && (
+            <Icon
+              src={require("../../assets/svgs/facebook.svg")}
+              alt={`linkedin-icon-${speaker.social.linkedin}`}
+              onClick={() => window.open(speaker.social.linkedin, "_blank")}
+            />
+          )}
+
+          {speaker.social.twitter && (
+            <Icon
+              src={require("../../assets/svgs/twitter.svg")}
+              alt={`twitter-icon-${speaker.name}`}
+              onClick={() => window.open(speaker.social.twitter, "_blank")}
+            />
+          )}
         </div>
       </Card>
     </BigCard>

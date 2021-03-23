@@ -32,52 +32,38 @@ const speakers = [
     title: "Full stack web developer ",
     social: {
       facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
       linkedin: "https://fr.linkedin.com/in/kahina-fekir-98972a140",
     },
   },
   {
-    id: "boutou",
-    name: "Akram Boutou",
-    image: "./RiadRemache.jpg",
-    title: "Dev Comanager",
+    id: "ikram",
+    name: "Ikram Manseri",
+    image: "./IkramManseriSchedule.jpg",
+    title: "Junior Devops Engineer at Doctolib ",
     social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
+      facebook: "https://www.facebook.com/ikrammanseri",
+      linkedin: "https://fr.linkedin.com/in/i-manseri",
     },
   },
   {
-    id: "boutou2",
-    name: "Akram Boutou",
-    image: "./RiadRemache.jpg",
-    title: "Dev Comanager",
+    id: "leila",
+    name: "Leila Benyoucef",
+    image: "./LeilaBenyoucefSchedule.jpg",
+    title: "Founder of Kiddy Sorties",
     social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
+      facebook: "https://www.facebook.com/lily.pink.319",
+      linkedin: "https://dz.linkedin.com/in/leila-benyoucef",
     },
   },
   {
-    id: "boutou3",
-    name: "Akram Boutou",
-    image: "./RiadRemache.jpg",
-    title: "Dev Comanager",
+    id: "benhamida",
+    name: "Fatima Zohra Benhamida",
+    image: "./Benhamida.jpg",
+    title: "Assistant Professor",
     social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
-    },
-  },
-  {
-    id: "boutou4",
-    name: "Akram Boutou",
-    image: "./RiadRemache.jpg",
-    title: "Dev Comanager",
-    social: {
-      facebook: "https://www.facebook.com/akram.boutouchent",
-      twitter: "https://twitter.com/akramboutou",
-      linkedin: "https://www.linkedin.com/in/boutouchent-akram-088930182/",
+      facebook: "https://www.facebook.com/profile.php?id=100014868276070",
+      twitter: "https://twitter.com/fzbenhamida?lang=fr",
+      linkedin: "https://fr.linkedin.com/in/fzbenhamida",
     },
   },
 ]
@@ -101,19 +87,17 @@ function SpeakersSection() {
       <h1 className=" font-extrabold text-5xl pt-12 z-10">Speakers</h1>
       <p className="z-10">
         These amazing extra-active, tech-savy, out of the ordinary speakers will
-        be ensuring the talks and workshops of this wonderful event!
+        be ensuring the talks of this wonderful event!
       </p>
       <Container>{SpeakersCards}</Container>
-
-      {/* <SpeakerCard></SpeakerCard> */}
     </Section>
   )
 }
 const Container = styled.div.attrs((props) => ({
   ...props,
-  className: cls("px-4", "flex", "gap-5", "flex-wrap", "justify-evenly"),
+  className: cls("px-4", "flex", "gap-5", "flex-wrap", "justify-center"),
 }))`
-  max-width: 1200px;
+  max-width: 1000px;
 `
 
 export default SpeakersSection
