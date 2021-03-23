@@ -63,14 +63,14 @@ function ScheduleCard({
     <Wrapper
       color={backgroundColor}
       className={classnames(
-        "py-4 px-8 rounded-md flex items-center shadow-md "
+        "py-2 px-4 rounded-md flex items-center shadow-md "
       )}
       style={containerStyle}
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-items-center mr-4">
         <TimeContainer
           color={timeColor}
-          className="font-semibold md:mr-4"
+          className="font-semibold text-lg md:mr-4"
           style={timeStyle}
         >
           {time}
@@ -85,7 +85,7 @@ function ScheduleCard({
       <ContentContainer>
         <TitleContainer
           color={titleColor}
-          className="font-semibold"
+          className="font-semibold  text-xl"
           style={titleStyle}
         >
           {title}
@@ -105,8 +105,8 @@ const TimeContainer = styled.div`
   color: ${(props) => props.color};
 `
 const Avatar = styled.img`
-  height: ${(props) => props.size ?? "50px"};
-  width: ${(props) => props.size ?? "50px"};
+  height: ${(props) => props.size ?? "80px"};
+  width: ${(props) => props.size ?? "80px"};
   color: ${(props) => props.color};
 `
 const ContentContainer = styled.div``

@@ -22,19 +22,19 @@ const scheduleTheming = [
   },
   {
     timeColor: "#80c390",
-    titleColor: "#000000",
+    titleColor: "#504b4b",
     backgroundColor: "#e1f8e8",
     subtitleColor: "rgba(0,0,0,0.5)",
   },
   {
     timeColor: "#f28e73",
-    titleColor: "#000000",
+    titleColor: "#504b4b",
     backgroundColor: "#ffecec",
     subtitleColor: "rgba(0,0,0,0.5)",
   },
   {
     timeColor: "#6ba0e1",
-    titleColor: "#000000",
+    titleColor: "#504b4b",
     backgroundColor: "#e2f8fe",
     subtitleColor: "rgba(0,0,0,0.5)",
   },
@@ -45,7 +45,7 @@ const scheduleData: {
 } = data
 const ScheduleList: React.FC<{ data: ScheduleData[] }> = ({ data }) => {
   return (
-    <ul className="flex m-0 flex-col md:w-3/5 md:mx-auto my-10 self-stretch">
+    <ul className="flex m-0 flex-col md:w-4/6 md:mx-auto my-10 self-stretch">
       {data?.map((item, index) => {
         const isEven = index % 2
         const themeIndex = index % scheduleTheming.length
@@ -94,7 +94,7 @@ const TabSelector: React.FC<{
         return (
           <li
             className={classnames(
-              "cursor-pointer border-b-2 transition-all duration-150 ease-in",
+              "cursor-pointer border-b-2 transition-all duration-150 ease-in text-lg",
               {
                 "text-gray-600": !isSelected,
                 "text-black": isSelected,
@@ -119,7 +119,12 @@ function ScheduleSection({}: Props): ReactElement {
   const [currentDay, setCurrentDay] = useState(days[0])
   return (
     <Section id="schedule">
-      <div className="flex flex-col justify-center items-center w-full relative">
+      <div
+        className="flex flex-col justify-center items-center w-full relative overflow-hidden"
+        style={{
+          overflow: "hidden",
+        }}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="190"
@@ -129,7 +134,7 @@ function ScheduleSection({}: Props): ReactElement {
           style={{
             zIndex: 2,
             right: -95,
-            top: -95,
+            bottom: 90,
           }}
         >
           <defs>
