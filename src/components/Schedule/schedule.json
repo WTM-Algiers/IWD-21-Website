@@ -38,21 +38,21 @@
   ],
   "9 Apr, 21": [
     {
-      "uid": "1",
+      "uid": "6",
       "title": "Workshop - Introduction to Cybersecurity",
       "subtitle": "Wassila Rania Harzeli ",
       "time": "9:00",
       "avatar": "./WassilaRaniaHarzeli.jpg"
     },
     {
-      "uid": "2",
+      "uid": "7",
       "title": "Workshop - Introduction into Deep Learning",
       "subtitle": "Aymen Berriche",
       "time": "9:00",
       "avatar": "./AymenBerriche.jpg"
     },
     {
-      "uid": "3",
+      "uid": "8",
       "title": "Workshop - Software Architecture",
       "subtitle": "Yacine Benkaidali",
       "time": "9:00",
@@ -61,21 +61,21 @@
   ],
   "10 Apr, 21": [
     {
-      "uid": "1",
+      "uid": "9",
       "title": "Workshop - Let's talk Flutter",
       "subtitle": "Narimane Hennouni",
       "time": "9:00",
       "avatar": "./Narimane.jpg"
     },
     {
-      "uid": "2",
+      "uid": "10",
       "title": "Workshop - Modern Blogs with Modern Technologies",
       "subtitle": "Smail Kourta",
       "time": "9:00",
       "avatar": "./smailKourta.jpg"
     },
     {
-      "uid": "3",
+      "uid": "11",
       "title": "Workshop - Get the courage to learn UX/UI",
       "subtitle": "Haidour Asma",
       "time": "9:00",

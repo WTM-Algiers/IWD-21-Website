@@ -1,6 +1,6 @@
 import React from "react"
 import moment, { duration } from "moment"
-
+import Fade from "react-reveal/Fade"
 interface IProps {
   futureDate: string
 }

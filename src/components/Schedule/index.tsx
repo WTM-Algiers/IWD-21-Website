@@ -3,6 +3,7 @@ import ScheduleCard from "./ScheduleCard"
 import classnames from "classnames"
 import data from "./schedule.json"
 import Section from "../Section"
+import Fade from "react-reveal/Fade"
 interface Props {}
 
 interface ScheduleData {
@@ -51,19 +52,27 @@ const ScheduleList: React.FC<{ data: ScheduleData[] }> = ({ data }) => {
         return (
           <>
             <li
+              key={item.uid}
+              id={item.uid}
               className={classnames("mx-2 md:flex", {
                 "md:self-start": !isEven,
                 "md:self-end": isEven,
               })}
             >
-              <ScheduleCard
-                title={item.title}
-                subtitle={item.subtitle}
-                time={item.time}
-                avatarSrc={item.avatar}
-                avatarAlt={item.title}
-                {...scheduleTheming[themeIndex]}
-              />
+              <Fade
+                left={!isEven}
+                right={isEven}
+                delay={index * DELAY_INCREMENT}
+              >
+                <ScheduleCard
+                  title={item.title}
+                  subtitle={item.subtitle}
+                  time={item.time}
+                  avatarSrc={item.avatar}
+                  avatarAlt={item.title}
+                  {...scheduleTheming[themeIndex]}
+                />
+              </Fade>
             </li>
             {index !== data.length - 1 ? <br></br> : null}
           </>
@@ -79,7 +88,7 @@ const TabSelector: React.FC<{
   onChange: (tid: string) => void
 }> = ({ selected, tabs, onChange }) => {
   return (
-    <ul className="flex m-0 w-full md:w-1/4 justify-evenly">
+    <ul className="flex m-0 w-full lg:w-1/4 justify-evenly">
       {tabs.map((item, index) => {
         const isSelected = selected === item
         return (
@@ -111,33 +120,39 @@ function ScheduleSection({}: Props): ReactElement {
   return (
     <Section id="schedule">
       <div className="flex flex-col justify-center items-center w-full relative">
-        {/*<svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="190"
-        height="190"
-        viewBox="0 0 190 190"
-        className="absolute right-0"
-        style={{
-          zIndex: 2,
-          right: -95,
-          top: -95,
-        }}
-      >
-        <defs>
-          <linearGradient
-            id="r4eqep0e3a"
-            x1=".5"
-            x2=".5"
-            y2="1"
-            gradientUnits="objectBoundingBox"
-          >
-            <stop offset="0" stop-color="#ffeefd" />
-            <stop offset="1" stop-color="#f5e4a4" />
-          </linearGradient>
-        </defs>
-        <circle cx="95" cy="95" r="95" fill="url(#r4eqep0e3a)" />
-      </svg>
-      */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="190"
+          height="190"
+          viewBox="0 0 190 190"
+          className="absolute right-0"
+          style={{
+            zIndex: 2,
+            right: -95,
+            top: -95,
+          }}
+        >
+          <defs>
+            <linearGradient
+              id="r4eqep0e3a"
+              x1=".5"
+              x2=".5"
+              y2="1"
+              gradientUnits="objectBoundingBox"
+            >
+              <stop offset="0" stop-color="#ffeefd" />
+              <stop offset="1" stop-color="#f5e4a4" />
+            </linearGradient>
+          </defs>
+          <circle
+            className="overflow-hidden"
+            cx="95"
+            cy="95"
+            r="95"
+            fill="url(#r4eqep0e3a)"
+          />
+        </svg>
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="190"
@@ -167,4 +182,5 @@ function ScheduleSection({}: Props): ReactElement {
   )
 }
 
+const DELAY_INCREMENT = 500
 export default ScheduleSection
