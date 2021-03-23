@@ -39,10 +39,10 @@ const GrowTogetherSection: React.FC = () => {
           Let's Grow Together
         </h1>
         <Description>
-          International Women’s Day (IWD) is marked on March 8th every year.In
-          different regions, the focus of celebrations ranges from general
-          respect and appreciation for women to a celebration of women’s
-          economic, political, and social achievements.
+          IWD is here to give everyone a chance to learn something new,
+          technical or non-technical because WTM Algiers is providing its
+          community with quality talks and amazing workshops in a variety of
+          fields, in order to grow together.
         </Description>
       </div>
       <ul className=" cards" style={{ margin: "50px auto" }}>
@@ -51,7 +51,7 @@ const GrowTogetherSection: React.FC = () => {
             <GrowTogetherCard
               img={require("../../assets/svgs/lamp.svg")}
               title="Inspiration"
-              text="consectetur adipisicing elit. Repellat minus magnam aut ad rem eveniet impedit voluptate"
+              text="make new masterpieces, imagine what you can do if only you have been given a chance."
               color="#fff7ec"
             ></GrowTogetherCard>
           </div>

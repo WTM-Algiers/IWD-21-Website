@@ -12,10 +12,14 @@ class Description extends Component<IProps> {
           Women's Day
         </div>
         <div className="desc-desc">
-          Sed a magna semper, porta purus eu, ullamcorper ligula. Nam sit
-          dignissim elementum mauris.
+          International Women’s Day, is marked on March 8th of every year in
+          different regions in the world, the reason for this celebration ranges
+          from general respect and appreciation for women to a celebration of
+          their economic, political and social achievements, and each year, WTM
+          Algiers hosts one big event in honor of all the women who contributed
+          and still contribute in the STEM industry.
         </div>
-        <div className="countdown-desc">Don't Waste Your Time!</div>
+        <div className="countdown-desc">Don't Miss Anything!</div>
       </div>
     )
   }

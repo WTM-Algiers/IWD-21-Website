@@ -625,17 +625,14 @@ pre tt:after {
   width: 100%;
 }
 .countdown-segment{
-  position: relative;
   background-color: white;
-  border-radius: 30%;
-  display: inline-block;
-  margin-right: 6%;
+  border-radius: 26%;
+  margin-right: 3%;
   font-size: 48px;
   text-align: center;
-  padding-top: 23px;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.06);
-  width: 15%;
-  height: 120px;
+  width: 16%;
+  height: 140px;
   font-family: "Poppins",ExtraBold;
 }
 .countdown-segment-caption{
@@ -650,7 +647,6 @@ pre tt:after {
 .countdown-segment-nb{
     padding-bottom: 0px;
     font-weight: 800;
-    padding-top: 10%;
   font-stretch: normal;
   font-style: normal;
   letter-spacing: normal;

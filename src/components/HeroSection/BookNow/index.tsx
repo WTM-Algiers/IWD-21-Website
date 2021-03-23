@@ -4,12 +4,12 @@ class Booknow extends Component {
   render() {
     return (
       <a
-        href="https:\\www.google.com"
+        href="https://gdg.community.dev/events/details/google-gdg-algiers-presents-international-womens-day-2021/"
         target="_blank"
         rel="noreferrer"
-        className="booknow"
+        className="booknow font-semibold"
       >
-        Book Now!
+        Know More!
       </a>
     )
   }

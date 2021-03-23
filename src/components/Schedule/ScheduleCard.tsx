@@ -70,7 +70,7 @@ function ScheduleCard({
       <div className="flex flex-col-reverse md:flex-row items-center justify-items-center mr-4">
         <TimeContainer
           color={timeColor}
-          className="font-semibold text-lg md:mr-4"
+          className="font-semibold md:text-lg text-base md:mr-4"
           style={timeStyle}
         >
           {time}
@@ -85,7 +85,7 @@ function ScheduleCard({
       <ContentContainer>
         <TitleContainer
           color={titleColor}
-          className="font-semibold  text-xl"
+          className="font-semibold  md:text-xl"
           style={titleStyle}
         >
           {title}

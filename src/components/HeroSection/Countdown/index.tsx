@@ -60,13 +60,13 @@ class Countdown extends React.Component<IProps, IState> {
 
   render() {
     return (
-      <div className="countdown">
+      <div className="countdown flex flex-row ">
         {Object.keys(this.state).map((key, i) => (
-          <div className="countdown-segment">
-            <div className={"count" + (i + 1) + " countdown-segment-nb"}>
+          <div className="countdown-segment flex flex-col justify-center">
+            <div className={"count" + (i + 1) + " countdown-segment-nb "}>
               {this.state[key]}
             </div>
-            <div className="countdown-segment-caption">{key}</div>
+            <div className="countdown-segment-caption my-1">{key}</div>
           </div>
         ))}
       </div>

@@ -132,7 +132,7 @@ function ScheduleSection({}: Props): ReactElement {
           viewBox="0 0 190 190"
           className="absolute right-0"
           style={{
-            zIndex: 2,
+            zIndex: -1,
             right: -95,
             bottom: 90,
           }}
