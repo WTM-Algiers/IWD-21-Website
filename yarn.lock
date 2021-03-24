@@ -15228,7 +15228,7 @@
     "node-dir" "^0.1.10"
     "strip-indent" "^3.0.0"
 
-"react-dom@*", "react-dom@^0.14.0 || ^15.0.0-0 || ^16.0.0", "react-dom@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react-dom@^16.4.2 || ^17.0.0", "react-dom@^16.6.0", "react-dom@^16.6.0 || ^17.0.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@>= 16.8.0", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3", "react-dom@16.13.1":
+"react-dom@^0.14.0 || ^15.0.0-0 || ^16.0.0", "react-dom@^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1", "react-dom@^15.0.0 || ^16.0.0 || ^17.0.0 ", "react-dom@^16.4.2 || ^17.0.0", "react-dom@^16.6.0", "react-dom@^16.6.0 || ^17.0.0", "react-dom@^16.8.0 || ^17.0.0", "react-dom@>= 16.8.0", "react-dom@15.x || 16.x || 16.4.0-alpha.0911da3", "react-dom@16.13.1":
   "integrity" "sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag=="
   "resolved" "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz"
   "version" "16.13.1"
@@ -17380,7 +17380,7 @@
   dependencies:
     "inline-style-parser" "0.1.1"
 
-"styled-components@*", "styled-components@^5.2.0", "styled-components@>= 2", "styled-components@>=2.0.0":
+"styled-components@^5.2.0", "styled-components@>= 2", "styled-components@>=2.0.0":
   "integrity" "sha512-sBdgLWrCFTKtmZm/9x7jkIabjFNVzCUeKfoQsM6R3saImkUnjx0QYdLwJHBjY9ifEcmjDamJDVfknWm1yxZPxQ=="
   "resolved" "https://registry.yarnpkg.com/styled-components/-/styled-components-5.2.1.tgz"
   "version" "5.2.1"
@@ -17879,26 +17879,6 @@
   "integrity" "sha1-WFhUf2spB1fulczMZm+1AITEYN0="
   "resolved" "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz"
   "version" "0.0.1"
-
-"tripetto-runner-autoscroll@^4.0.2":
-  "integrity" "sha512-48L/R3jLTckPLFG4bDbtgvxyaL63l3ZVVl3SOcawvWMxkx+gsjnNd6oA6OVziQx9q6pF30xhiT+4eKWwPcAZNw=="
-  "resolved" "https://registry.npmjs.org/tripetto-runner-autoscroll/-/tripetto-runner-autoscroll-4.0.2.tgz"
-  "version" "4.0.2"
-
-"tripetto-runner-foundation@*":
-  "integrity" "sha512-I2izljQcrHGpIlKEYugoa7IAkmPFkXKeGsc+3M5rAW7Cr4n4s+yPyqSV2g9l2Ce/uUixlHjCKnJuhGx7yocsxQ=="
-  "resolved" "https://registry.npmjs.org/tripetto-runner-foundation/-/tripetto-runner-foundation-5.0.1.tgz"
-  "version" "5.0.1"
-
-"tripetto-runner-react-hook@*":
-  "integrity" "sha512-z2q8Rs279JvNljSAOR/7R0eKDvvzzKtaqjJ+QeS9aZdPDQBjW6DMJY9WF14bmXJKkfRx4QD7N4ENPGZM3AaMMg=="
-  "resolved" "https://registry.npmjs.org/tripetto-runner-react-hook/-/tripetto-runner-react-hook-2.0.0.tgz"
-  "version" "2.0.0"
-
-"tripetto-services@^1.2.2":
-  "integrity" "sha512-DG5wV+detaNkAlWBy+inNcjYFh/hqH9lKEyC+GKpceWadg7cyg3iDqIJDwEp/u/KQfBEGR+Z+QcobZTeoLGh8Q=="
-  "resolved" "https://registry.npmjs.org/tripetto-services/-/tripetto-services-1.2.2.tgz"
-  "version" "1.2.2"
 
 "trough@^1.0.0":
   "integrity" "sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA=="
